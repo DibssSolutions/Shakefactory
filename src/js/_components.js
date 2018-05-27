@@ -1,0 +1,10 @@
+import './components/_preloader.js';
+import './components/_header';
+import './components/_nav';
+import './components/_countdown';
+import './components/_accordion';
+import './components/_slider';
+import './components/_paralax';
+import './components/_initCounters';
+import './components/_splitTextRows';
+import './components/animations';

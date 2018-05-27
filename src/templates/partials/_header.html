@@ -1,0 +1,23 @@
+<!-- header -->
+<header class="header js-header">
+	<div class="header__inner inner">
+		<a href="#" class="logo">
+			<img src="img/.svg" alt="Shakefactory">
+		</a>
+		<button class="btn-nav js-nav-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+		<nav class="nav js-nav">
+			<ul class="nav__list">
+				{% for item in navigation %}
+					<li class="nav__item">
+						<a href="{{item.href}}" class="nav__link js-nav-link">{{item.title}}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</nav>
+	</div>
+</header>
+<!-- ¯\_(ツ)_/¯ -->

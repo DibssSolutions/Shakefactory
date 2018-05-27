@@ -1,0 +1,25 @@
+{
+	"sitename": "Shakefactory",
+	"navigation": [
+		{
+			"title": "Shakers",
+			"href": "#"
+		},
+		{
+			"title": "Accessories",
+			"href": "#"
+		},
+		{
+			"title": "FAQ",
+			"href": "#"
+		},
+		{
+			"title": "About",
+			"href": "#"
+		},
+		{
+			"title": "Contact",
+			"href": "#"
+		}
+	]
+}
