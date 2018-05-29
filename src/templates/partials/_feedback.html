@@ -1,0 +1,14 @@
+<!-- begin feedback -->
+<div class="feedback">
+	<div class="feedback__inner inner">
+		<h2 class="feedback__title title-md title-md_gray">{{ feedback.title }}</h2>
+		<div class="feedback__gallery">
+			{% for item in feedback.gallery %}
+			<div class="feedback__item">
+				<div class="feedback__description">{{ item.description }}</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<!-- end feedback -->
