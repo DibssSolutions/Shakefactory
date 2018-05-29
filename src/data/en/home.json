@@ -1,3 +1,19 @@
 {
-	"title": "home"
+	"title": "home",
+	"selection": {
+		"title": "We supply shakers to some of the largest name brands in the supplement industry.",
+		"description": "View our large selection of Shakers and get started on your own design today.",
+		"href": "#",
+		"btn": "view our selection"
+	},
+	"feedback": {
+		"title": "What our clients are saying.",
+		"gallery": [
+			{
+				"description": "We chose shakerfactory for their efficiency and friendly sales team, get in touch with them and you’ll know what I mean.and friendly sales team, get in touch with them and you’ll know what I mean."
+			}
+
+		]
+		
+	}
 }
