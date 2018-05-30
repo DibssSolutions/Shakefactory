@@ -2,9 +2,12 @@
 	background: $blue
 	padding: 55px 0 80px
 	text-align: center
+	padding: 27px 0 40px 
 	&__title
 		max-width: 700px
 		margin: 0 auto 25px
+		+sm
+			margin: 0 auto 12px 
 	&__description
 		font-size: 16px
 		font-weight: 400
@@ -12,7 +15,7 @@
 		letter-spacing: -0.02em
 		margin: 0 0 31px
 		line-height: 25px
-	&__client
-		font-size: 16px
-		color: $night-blue
-	 
+		+sm
+			font-size: 14px
+			line-height: 20px
+			margin: 0 0 15px
