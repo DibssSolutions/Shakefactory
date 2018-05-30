@@ -1,15 +1,7 @@
-{
-  // Default options
-  'functions': true
-}
-
 $icons: (0:0)
-{{#items}}
-$icons: map-merge($icons,('{{name}}': (X: {{px.offset_x}}, Y:{{px.offset_y}}, W: {{px.width}}, H: {{px.height}}, TW: {{px.total_width}}, TH: {{px.total_height}}, IMG: '{{{escaped_image}}}')))
-{{/items}}
+$icons: map-merge($icons,('facebook': (X: 0px, Y:0px, W: 20px, H: 37px, TW: 20px, TH: 37px, IMG: '../img/sprite.png')))
 
 
-{{#options.functions}}
 // Gets an attribute from the sass map
 @function icon-attr($icon, $attr)
   $icon: map-get($icons, $icon)
@@ -36,7 +28,6 @@ $icons: map-merge($icons,('{{name}}': (X: {{px.offset_x}}, Y:{{px.offset_y}}, W:
   $th: icon-attr($iconName, TH)
   background-size: $tw/2 $th/2    
 
-{{/options.functions}}
 
 @mixin s($i)
   +sprite($i)
@@ -46,10 +37,10 @@ $icons: map-merge($icons,('{{name}}': (X: {{px.offset_x}}, Y:{{px.offset_y}}, W:
   +sprite-retina($i)  
   display: inline-block
 
-//{{#items}}
-//.icon-{{name}}
-//  width: {{px.width}}
-//  height: {{px.height}}
-//  background-image: url('{{{escaped_image}}}')
-//  background-position: {{px.offset_x}} {{px.offset_y}}
-//{{/items}}
+//
+//.icon-facebook
+//  width: 20px
+//  height: 37px
+//  background-image: url('../img/sprite.png')
+//  background-position: 0px 0px
+//
