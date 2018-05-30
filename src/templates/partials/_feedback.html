@@ -6,9 +6,18 @@
 			{% for item in feedback.gallery %}
 			<div class="feedback__item">
 				<div class="feedback__description">{{ item.description }}</div>
+				<div class="feedback__quotes">
+					 &#8220;
+				</div>
+				<div class="feedback__info">
+					<div class="feedback__client">{{ item.client }}</div>
+					<div class="feedback__login">
+						{{ item.login }}
+					</div>	
+				</div>
 			</div>
 			{% endfor %}
-		</div>
+		</div> 
 	</div>
 </div>
 <!-- end feedback -->
