@@ -1,1 +1,69 @@
 .footer
+	padding: 70px 0 23px
+	+md
+		padding: 35px 0 12px
+	&__row
+		display: flex
+		align-items: flex-start
+		flex-wrap: wrap
+		justify-content: space-between
+		&:first-child
+			padding-bottom: 105px
+			+md
+				padding-bottom: 20px	
+		+sm
+			flex-direction: column
+	&__count
+		display: flex
+		align-items: center
+		justify-content: flex-start
+		margin-bottom: 30px
+		+sm
+			flex-direction: column
+			align-items: flex-start
+			margin-bottom: 20px
+
+
+.rights
+	color: $mine-shaft
+	font-size: 15px
+	line-height: 22px
+
+.fb-like
+	margin-right: 16px
+	+sm
+		margin-bottom: 10px	
+
+.col
+	flex: 1 1 33.3%
+	padding: 0 65px 40px 0
+	+sm
+		padding: 0 0 30px 0
+		max-width: 544px
+	.title-xs_mod
+		font-weight: 700
+		text-transform: uppercase
+		margin-bottom: 20px
+		+md
+			margin-bottom: 10px
+	&__text
+		line-height: 22px
+		font-size: 15px
+	&__link
+		color: $indigo
+		transition: border-bottom .3s
+		border-bottom: 1px solid $white
+		&:hover
+			border-bottom: 1px solid $indigo	
+
+.soc
+	display: flex
+	align-items: flex-start
+	justify-content: flex-start
+	&__item
+		margin-right: 17px
+	&__link
+		padding-top: 5px
+		transition: opacity .3s
+		&:hover
+			opacity: .8	

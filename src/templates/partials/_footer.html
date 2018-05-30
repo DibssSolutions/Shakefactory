@@ -4,24 +4,24 @@
 			<div class="footer__row">
 				{% for item in footer.top %}
 				<div class="col">
-					<h4 class="title-xs">{{ item.title }}</h4>
+					<h4 class="title-xs title-xs_mod">{{ item.title }}</h4>
 					{% if item.text %}
-					<p>{{ item.text | safe }}</p>
+					<p class="col__text">{{ item.text | safe }}</p>
 					{% endif %}
 					{% if item.soc %}
 					<ul class="soc">
 						{% for item in item.soc %}
-						<li class="soc__item"><a href="{{ item.url }}">{{ mixins.icon( item.icon ) }}</a></li>
+						<li class="soc__item"><a class="soc__link" href="{{ item.url }}">{{ mixins.icon( item.icon ) }}</a></li>
 						{% endfor %}
-
 					</ul>
 					{% endif %}
 				</div>
 				{% endfor %}
 			</div>
 			<div class="footer__row">
-				<div class="col">
-				<span class="icon icon-fb"></span>
+				<div class="footer__count">
+					<div class="fb-like" data-href="https://www.facebook.com/Shakerfactory" data-width="100px" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+					<p class="rights">{{ bottom.rights | safe }}</p>
 				</div>
 			</div>
 		</div>

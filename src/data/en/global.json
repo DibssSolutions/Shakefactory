@@ -22,6 +22,43 @@
 			"href": "#"
 		}
 	],
+
+	"hero": {
+		"title": "Custom & Private Label Shaker Bottles",
+		"description": "The World's Largest Selection of Private Label Shaker Bottles, Pill organizers, and other Promotional Fitness Items. Customize with your company logo and colors.",
+		"btn": "view all shakers",
+		"href": "#",
+		"link": "#",
+		"text": "Whatch how it works",
+		"info": "Over 3,000,000 shakers shipped to date."
+		},
+	"brend": [
+		{
+			"icon":"topwell",
+			"url": "#"
+		},
+		{
+			"icon":"on",
+			"url": "#"
+		},
+		{
+			"icon":"bulk",
+			"url": "#"
+		},
+		{
+			"icon":"sts",
+			"url": "#"
+		},
+		{
+			"icon":"foodfirst",
+			"url": "#"
+		},
+		{
+			"icon":"maxbody",
+			"url": "#"
+		}
+	],
+
 	"footer": {
 		"top": [
 			{
@@ -30,35 +67,37 @@
 			},
 			{
 				"title": "Contact",
-				"text": "Contact us at <a href='mailto:info@shakerfactory.com'>info@shakerfactory.com</a> or by Skype at paul.shakerfactory"
+				"text": "Contact us at <a class='col__link' href='mailto:info@shakerfactory.com'>info@shakerfactory.com</a> or by Skype at paul.shakerfactory"
 			},
 			{
 				"title": "Social",
 				"soc": [
 					{
 						"icon": "facebook",
-						"url": "#"
+						"url": "https://www.facebook.com/Shakerfactory"
 					},
 					{
-						"icon": "facebook",
-						"url": "#"
+						"icon": "in",
+						"url": "https://twitter.com/Shakerfactory"
 					},
 					{
-						"icon": "facebook",
-						"url": "#"
+						"icon": "youtube",
+						"url": "https://www.linkedin.com/company/shakerfactory?trk=biz-companies-cym"
 					},
 					{
-						"icon": "facebook",
-						"url": "#"
+						"icon": "twitter",
+						"url": "https://plus.google.com/u/0/101227750089966240119/posts"
 					},
 					{
-						"icon": "facebook",
-						"url": "#"
+						"icon": "insta",
+						"url": "http://instagram.com/shakerfactory"
 					}
 
 				]
 			}
 		]
+	},
+	"bottom": {
+		"rights": "&copy; 2018 - Shakerfactory Ltd. All Rights Reserved"
 	}
-
 }
