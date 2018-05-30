@@ -1,0 +1,18 @@
+<!-- begin slider -->
+<div class="slider">
+	<div class="slider__inner inner">
+		<div class="slider__slides js-slider-product">
+			{% for item in slider.products %}
+			<div class="slider__slide">
+				<div class="product">
+					<div class="product__in">
+						<a href="{{ item.url }}" class="product__title">{{ item.title }}</a>
+						<a href="{{ item.url }}" class="product__img"><img src="{{ item.product }}" alt="hercules"></a>
+					</div>					
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<!-- end slider -->

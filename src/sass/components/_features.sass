@@ -1,0 +1,79 @@
+.features
+	padding-bottom: 120px
+	+sm
+		padding-bottom: 30px
+	&__title
+		max-width: 570px
+		margin: 0 auto 56px
+		text-align: center
+		+sm
+			margin: 0 auto 28px 
+	&__content
+		padding: 0 26px
+		+sm
+			padding: 0  
+	&__row
+		display: flex
+		+sm
+			flex-direction: column
+		&:not(:last-child)
+			margin-bottom: 67px
+			+sm
+				margin-bottom: 20px
+	&__img
+		width: 57.3%
+		+clr
+		+sm
+			order: -1
+			width: 100%
+		&:first-child
+			padding-right: 10px
+			+sm
+				padding-right: 0
+			img
+				max-width: 500px
+				+sm
+					max-width: 100%
+		&:last-child
+			padding-left: 10px
+			+sm
+				padding-left: 0
+			img
+				float: right
+				max-width: 577px 
+		img
+			width: 100%
+			display: block
+	&__text
+		width: 42.7%
+		+sm
+			width: 100%
+			padding-top: 23px
+		&:first-child
+			padding-top: 23px
+	&__subtitle
+		font-size: 25px
+		line-height: 30px
+		margin-bottom: 35px
+		color: $gray-blue
+		font-weight: 400
+		+sm
+			font-size: 18px
+			line-height: 28px
+			margin-bottom: 17px
+	&__description
+		font-size: 23px
+		line-height: 32px
+		color: $light-gray
+		letter-spacing: -0.04em
+		font-weight: 400
+		+sm
+			font-size: 14px
+			line-height: 25px
+		p:not(:last-child)
+			margin-bottom: 40px
+			+sm
+				margin-bottom: 15px  
+
+	
+	

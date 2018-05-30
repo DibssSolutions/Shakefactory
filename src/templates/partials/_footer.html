@@ -2,19 +2,26 @@
 	<div class="footer">
 		<div class="footer__inner inner">
 			<div class="footer__row">
-				<div class="footer__col">
-					
+				{% for item in footer.top %}
+				<div class="col">
+					<h4 class="title-xs">{{ item.title }}</h4>
+					{% if item.text %}
+					<p>{{ item.text | safe }}</p>
+					{% endif %}
+					{% if item.soc %}
+					<ul class="soc">
+						{% for item in item.soc %}
+						<li class="soc__item"><a href="{{ item.url }}">{{ mixins.icon( item.icon ) }}</a></li>
+						{% endfor %}
+
+					</ul>
+					{% endif %}
 				</div>
-				<div class="footer__col">
-					
-				</div>
-				<div class="footer__col">
-					
-				</div>
+				{% endfor %}
 			</div>
 			<div class="footer__row">
-				<div class="footer__col">
-					
+				<div class="col">
+				<span class="icon icon-fb"></span>
 				</div>
 			</div>
 		</div>

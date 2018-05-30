@@ -21,6 +21,44 @@
 			"title": "Contact",
 			"href": "#"
 		}
-	]
-	
+	],
+	"footer": {
+		"top": [
+			{
+				"title": "Shakerfactory",
+				"text": "A one-stop shop for all branding and promotional merchandise for the health and fitness industries. "
+			},
+			{
+				"title": "Contact",
+				"text": "Contact us at <a href='mailto:info@shakerfactory.com'>info@shakerfactory.com</a> or by Skype at paul.shakerfactory"
+			},
+			{
+				"title": "Social",
+				"soc": [
+					{
+						"icon": "facebook",
+						"url": "#"
+					},
+					{
+						"icon": "facebook",
+						"url": "#"
+					},
+					{
+						"icon": "facebook",
+						"url": "#"
+					},
+					{
+						"icon": "facebook",
+						"url": "#"
+					},
+					{
+						"icon": "facebook",
+						"url": "#"
+					}
+
+				]
+			}
+		]
+	}
+
 }
