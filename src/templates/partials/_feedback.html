@@ -5,10 +5,7 @@
 		<div class="feedback__gallery">
 			{% for item in feedback.gallery %}
 			<div class="feedback__item">
-				<div class="feedback__description">{{ item.description }}</div>
-				<div class="feedback__quotes">
-					 &#8220;
-				</div>
+				<div class="feedback__description" data-symbol="&#8220;">{{ item.description }}</div>
 				<div class="feedback__info">
 					<div class="feedback__client">{{ item.client }}</div>
 					<div class="feedback__login">

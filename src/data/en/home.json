@@ -21,13 +21,80 @@
 			},
 			{
 				"description": "To future clients I would say that Shakerfactory has both good personal service and good prices.",
-
-				"client": "Spiros Maragakis",
+				"client": "Arnlaugur Einarsson",
 				"login": "Allilja Ehf"
 			}
 
 
 		]
 		
+	},
+	"features": {
+		"title": "We supply shakers and accessories to some of the largest name brands in the supplement industry.",
+		"rows": [
+			{
+				"subtitle": "Custom design & Free mockups",
+				"img": "./img/features2.png",
+				"texts": [ "Our shaker bottles comes in various shapes and sizes, and can be custom-designed from over 20 molds.",  "All shakers are customizable with your logo and any color on lid and body, and we provide free mockups of yourshaker prior to sampling."]
+			},
+			{
+				"directionLeft": "true",
+				"title": "We supply shakers and accessories to some of the largest name brands in the supplement industry.",
+				"subtitle": "Door to Door Pricing",
+				"img": "./img/features.png",
+				"texts": [ "Our shaker bottles comes in various shapes and sizes, and can be custom-designed from over 20 molds.",  "All shakers are customizable with your logo and any color on lid and body, and we provide free mockups of yourshaker prior to sampling."]
+			}
+		]
+	},
+	"slider": {
+		"icon": "arrow",
+		"products": [
+			{
+				"title": "Hercules",
+				"product": "./img/hercules1.png",
+				"url": "#"
+			},
+			{
+				"title": "The Pearl",
+				"product": "./img/hercules3.png",
+				"url": "#"
+			},
+			{
+				"title": "Wellness Choice (l)",
+				"product": "./img/hercules6.png",
+				"url": "#"
+			},
+			{
+				"title": "The Platz",
+				"product": "./img/hercules8.png",
+				"url": "#"
+			},
+			{
+				"title": "Nitroshakern",
+				"product": "./img/SF323_7.jpg",
+				"url": "#"
+			},
+			{
+				"title": "The Tank",
+				"product": "./img/SF037-1.jpg",
+				"url": "#"
+			},
+			{
+				"title": "Zen",
+				"product": "./img/SF255-1_3.jpg",
+				"url": "#"
+			},
+			{
+				"title": "Cyborg",
+				"product": "./img/SF285.jpg",
+				"url": "#"
+			},
+			{
+				"title": "Slim",
+				"product": "./img/SF350.jpg",
+				"url": "#"
+			}
+		] 
 	}
+	
 }

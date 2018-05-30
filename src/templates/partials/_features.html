@@ -1,0 +1,43 @@
+<!-- begin features -->
+<div class="features">
+	<div class="features__inner inner">
+		<h2 class="features__title title-md title-md_gray">{{ features.title }}</h2>
+		<div class="features__content">
+			{% for row in features.rows %}
+				{% if row.directionLeft %}
+				<div class="features__row">
+					<div class="features__img">
+						<img src="{{ row.img }}" alt="features">
+					</div>
+					<div class="features__text">
+						<div class="features__subtitle">{{ row.subtitle }}</div>
+						<div class="features__description">
+							{% for text in row.texts %}
+								<p>{{ text }}</p>
+							{% endfor %}
+						</div>
+					</div>
+				</div>	
+				{% else %}
+				<div class="features__row">
+					<div class="features__text">
+						<div class="features__subtitle">{{ row.subtitle }}</div>
+						<div class="features__description">
+							{% for text in row.texts %}
+								<p>{{ text }}</p>
+							{% endfor %}
+						</div>
+					</div>
+					<div class="features__img">
+						<img src="{{ row.img }}" alt="features">
+					</div>
+				</div>
+				{% endif %}
+				
+			{% endfor %}
+			
+		</div>
+
+	</div>
+</div>
+<!-- end features -->
