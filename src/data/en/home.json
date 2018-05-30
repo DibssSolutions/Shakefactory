@@ -11,15 +11,19 @@
 		"gallery": [
 			{
 				"description": "We chose shakerfactory for their efficiency and friendly sales team, get in touch with them and you’ll know what I mean.and friendly sales team, get in touch with them and you’ll know what I mean.",
-				"client": "Angelo Eu"
+				"client": "Angelo Eu",
+				"login": "Optimum Nutrition"
 			},
 			{
 				"description": "The two most significant benefits of Shakerfactory for me are the good prices and the high quality of products.",
-				"client": "Spiros Maragakis"
+				"client": "Spiros Maragakis",
+				"login": "X-Treme Stores"
 			},
 			{
 				"description": "To future clients I would say that Shakerfactory has both good personal service and good prices.",
-				"client": "Spiros Maragakis"
+
+				"client": "Spiros Maragakis",
+				"login": "Allilja Ehf"
 			}
 
 
