@@ -3,3 +3,5 @@ ProjectTitle: Shakefactory
 PageList:
 - file: home.html
   ready: 100
+- file: about.html
+  ready: 50
