@@ -7,6 +7,7 @@ import { SCROLL_TO } from '../_utils';
   const $nav = $('.js-nav');
   const $links = $('.js-nav-link');
   const $sections = $('.js-section');
+  const $body = $('body');
   const header = '.js-header';
 
   //SCROLL TO
@@ -25,6 +26,7 @@ import { SCROLL_TO } from '../_utils';
     e.preventDefault();
     $nav.toggleClass(OPEN);
     $btn.toggleClass(ACTIVE);
+    $body.toggleClass(ACTIVE);
   });
 
   BODY.click(e => {
@@ -32,6 +34,11 @@ import { SCROLL_TO } from '../_utils';
     if ($target.closest(header).length) return;
     $nav.removeClass(OPEN);
     $btn.removeClass(ACTIVE);
+    $body.removeClass(ACTIVE);
   });
 
+
+
 })();
+
+
