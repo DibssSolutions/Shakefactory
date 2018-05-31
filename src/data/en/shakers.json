@@ -14,19 +14,19 @@
 					},
 					{
 						"name": "400ml",
-						"attr": "400ml"
+						"attr": ".400ml"
 					},
 					{
 						"name": "500ml",
-						"attr": "500ml"
+						"attr": ".500ml"
 					},
 					{
 						"name": "600ml",
-						"attr": "600ml"
+						"attr": ".600ml"
 					},
 					{
 						"name": "700+ml",
-						"attr": "700+ml"
+						"attr": ".700ml"
 					}
 				]
 			},
@@ -40,19 +40,19 @@
 					},
 					{
 						"name": "Electric",
-						"attr": "electric"
+						"attr": ".electric"
 					},
 					{
 						"name": "Tritan",
-						"attr": "tritan"
+						"attr": ".tritan"
 					},
 					{
 						"name": "Stainless Steel",
-						"attr": "stainless-steel"
+						"attr": ".stainless-steel"
 					},
 					{
 						"name": "Multi-compartment",
-						"attr": "multi-compartment"
+						"attr": ".multi-compartment"
 					}
 				]
 			},
@@ -62,19 +62,19 @@
 					{
 						"class": "is-checked",
 						"name": "5000pcs",
-						"attr": "5000pcs"
+						"attr": ".5000pcs"
 					},
 					{
 						"name": "2500pcs",
-						"attr": "2500pcs"
+						"attr": ".2500pcs"
 					},
 					{
 						"name": "1000pcs",
-						"attr": "1000pcs"
+						"attr": ".1000pcs"
 					},
 					{
 						"name": "500pcs",
-						"attr": "500pcs"
+						"attr": ".500pcs"
 					}
 				]
 			}

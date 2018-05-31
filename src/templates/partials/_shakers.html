@@ -21,8 +21,8 @@
 		</div>		
 		<div class="shakers__grid grid">
 			{% for product in shakers.products %}
-			<div class="grid__col">
-				<div class="grid__item item {{ product.classes }}" data-category="{{ product.category }}">
+			<div class="grid__col {{ product.classes }}">
+				<div class="grid__item item" data-category="{{ product.category }}">
 					<div class="item__img">
 						<img src="{{ product.img }}" alt="{{ product.alt }}">
 					</div>
