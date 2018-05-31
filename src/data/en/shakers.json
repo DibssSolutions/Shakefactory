@@ -1,0 +1,85 @@
+{	
+	"shakers": {
+		"title": "Find a shaker that suits your needs. All shakers can be customized with your logo and any color on lid and body.",
+		"img" : "img/shakers-img.png",
+		"logo": "logo",
+		"filters": [
+			{
+				"title": "Capacity",
+				"tags": [
+					{
+						"class": "is-checked",
+						"name": "All",
+						"attr": "*"
+					},
+					{
+						"name": "400ml",
+						"attr": "400ml"
+					},
+					{
+						"name": "500ml",
+						"attr": "500ml"
+					},
+					{
+						"name": "600ml",
+						"attr": "600ml"
+					},
+					{
+						"name": "700+ml",
+						"attr": "700+ml"
+					}
+				]
+			},
+			{
+				"title": "Features",
+				"tags": [
+					{
+						"class": "is-checked",
+						"name": "All",
+						"attr": "*"
+					},
+					{
+						"name": "Electric",
+						"attr": "Electric"
+					},
+					{
+						"name": "Tritan",
+						"attr": "Tritan"
+					},
+					{
+						"name": "Stainless Steel",
+						"attr": "Stainless Steel"
+					},
+					{
+						"name": "Multi-compartment",
+						"attr": "Multi-compartment"
+					}
+				]
+			},
+			{
+				"title": "Minimum order quantity",
+				"tags": [
+					{
+						"class": "is-checked",
+						"name": "5000pcs",
+						"attr": "*"
+					},
+					{
+						"name": "2500pcs",
+						"attr": "2500pcs"
+					},
+					{
+						"name": "1000pcs",
+						"attr": "1000pcs"
+					},
+					{
+						"name": "500pcs",
+						"attr": "500pcs"
+					}
+				]
+			}
+		]
+		
+	}
+	
+}

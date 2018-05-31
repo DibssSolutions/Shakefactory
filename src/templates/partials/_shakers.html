@@ -1,0 +1,22 @@
+<!-- begin shakers -->
+<div class="shakers">
+	<div class="shakers__top">
+		<h2 class="shakers__title title-md title-md_gray">{{ shakers.title }}</h2>
+		<div class="shakers__img">
+			<img src="{{ shakers.img }}" alt="{{ shakers.logo }}">
+		</div>
+	</div>
+	<div class="shakers__content">
+		{% for item in shakers.filters %}
+		<div class="shakers__col">
+			<h5 class="shakers__subtitle title-sm">{{ item.title }}</h5>
+			<div class="shakers__button-group button-group js-filters"> 		
+				{% for item in item.tags %}
+					<button class="button-group__button{% if item.class %} {{ item.class }}{% endif %}" data-filter="{{item.attr}}">{{ item.name }}</button>
+				{% endfor %}
+			</div>
+		</div>	
+		{% endfor %}
+	</div>
+</div>
+<!-- end shakers -->

@@ -8,13 +8,13 @@ $('.js-slider-product').slick({
 			 nextArrow: '<button type="button" class="slider__next"><svg class="icon icon-arrow"><use xlink:href="img/sprite.svg#icon-arrow"></use></svg></buttont',
 			 responsive: [
 			    {
-			      breakpoint: 992,
+			      breakpoint: 1200,
 			      settings: {
 			      	 slidesToShow: 3,
 			      }
 			    },
 			    {
-			      breakpoint: 600,
+			      breakpoint: 767,
 			      settings: {
 			      	 slidesToShow: 2,
 			      }
