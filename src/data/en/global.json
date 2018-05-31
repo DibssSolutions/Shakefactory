@@ -23,42 +23,6 @@
 		}
 	],
 
-	"hero": {
-		"title": "Custom & Private Label Shaker Bottles",
-		"description": "The World's Largest Selection of Private Label Shaker Bottles, Pill organizers, and other Promotional Fitness Items. Customize with your company logo and colors.",
-		"btn": "view all shakers",
-		"href": "#",
-		"link": "https://www.youtube.com/watch?v=_sI_Ps7JSEk",
-		"text": "Whatch how it works",
-		"info": "Over 3,000,000 shakers shipped to date."
-		},
-	"brend": [
-		{
-			"icon":"topwell",
-			"url": "#"
-		},
-		{
-			"icon":"on",
-			"url": "#"
-		},
-		{
-			"icon":"bulk",
-			"url": "#"
-		},
-		{
-			"icon":"sts",
-			"url": "#"
-		},
-		{
-			"icon":"foodfirst",
-			"url": "#"
-		},
-		{
-			"icon":"maxbody",
-			"url": "#"
-		}
-	],
-
 	"footer": {
 		"top": [
 			{
