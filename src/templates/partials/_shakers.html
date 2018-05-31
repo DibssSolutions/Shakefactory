@@ -6,17 +6,34 @@
 			<img src="{{ shakers.img }}" alt="{{ shakers.logo }}">
 		</div>
 	</div>
-	<div class="shakers__content">
-		{% for item in shakers.filters %}
-		<div class="shakers__col">
-			<h5 class="shakers__subtitle title-sm">{{ item.title }}</h5>
-			<div class="shakers__button-group button-group js-filters"> 		
-				{% for item in item.tags %}
-					<button class="button-group__button{% if item.class %} {{ item.class }}{% endif %}" data-filter="{{item.attr}}">{{ item.name }}</button>
-				{% endfor %}
-			</div>
-		</div>	
-		{% endfor %}
+	<div class="shakers__in">
+		<div class="shakers__content">
+			{% for item in shakers.filters %}
+			<div class="shakers__col">
+				<h5 class="shakers__subtitle title-sm">{{ item.title }}</h5>
+				<div class="shakers__button-group button-group js-filters"> 		
+					{% for item in item.tags %}
+						<button class="button-group__button{% if item.class %} {{ item.class }}{% endif %}" data-filter="{{item.attr}}">{{ item.name }}</button>
+					{% endfor %}
+				</div>
+			</div>	
+			{% endfor %}
+		</div>		
+		<div class="shakers__grid grid">
+			{% for product in shakers.products %}
+			<div class="grid__col">
+				<div class="grid__item item {{ product.classes }}" data-category="{{ product.category }}">
+					<div class="item__img">
+						<img src="{{ product.img }}" alt="{{ product.alt }}">
+					</div>
+					<div class="item__info">
+						<div class="item__title">{{ product.title }}</div>
+						<div class="item__capacity">{{ product.capacity }}</div>
+					</div>		
+				 </div>
+			</div>	
+			{% endfor %}
+		</div>
 	</div>
 </div>
 <!-- end shakers -->

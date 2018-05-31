@@ -40,19 +40,19 @@
 					},
 					{
 						"name": "Electric",
-						"attr": "Electric"
+						"attr": "electric"
 					},
 					{
 						"name": "Tritan",
-						"attr": "Tritan"
+						"attr": "tritan"
 					},
 					{
 						"name": "Stainless Steel",
-						"attr": "Stainless Steel"
+						"attr": "stainless-steel"
 					},
 					{
 						"name": "Multi-compartment",
-						"attr": "Multi-compartment"
+						"attr": "multi-compartment"
 					}
 				]
 			},
@@ -62,7 +62,7 @@
 					{
 						"class": "is-checked",
 						"name": "5000pcs",
-						"attr": "*"
+						"attr": "5000pcs"
 					},
 					{
 						"name": "2500pcs",
@@ -78,8 +78,80 @@
 					}
 				]
 			}
+		],
+		"products": [
+			{	
+				"classes": "700ml electric",
+				"category": "Electric",
+				"img": "./img/hercules6.png",
+				"title": "Wellness Choice (L)",
+				"alt": "shacker",
+				"capacity": "700ml"
+			},
+			{	
+				"classes": "700ml multi-compartment 5000pcs",
+				"img": "./img/SF037-1.jpg",
+				"title": "The Tank",
+				"alt": "shacker",
+				"capacity": "700ml"
+			},
+			{	
+				"classes": "400ml multi-compartment 5000pcs",
+				"img": "./img/SF107.jpg",
+				"title": "The Zane",
+				"alt": "shacker",
+				"capacity": "400ml"
+			},
+			{	
+				"classes": "600ml tritan 5000pcs",
+				"img": "./img/SF234.jpg",
+				"title": "The Dorian",
+				"alt": "shacker",
+				"capacity": "600ml"
+			},
+			{	
+				"classes": "600ml tritan 5000pcs",
+				"img": "./img/SF236.jpg",
+				"title": "Pump",
+				"alt": "shacker",
+				"capacity": "600ml"
+			},
+			{	
+				"classes": "400ml stainless-steel 5000pcs",
+				"img": "./img/SF255-1_3.jpg",
+				"title": "Wellness Choice (L)",
+				"alt": "shacker",
+				"capacity": "400ml"
+			},
+			{	
+				"classes": "400ml tritan 5000pcs",
+				"img": "./img/SF352.jpg",
+				"title": "The Tank",
+				"alt": "shacker",
+				"capacity": "400ml"
+			},
+			{	
+				"classes": "400ml tritan 5000pcs",
+				"img": "./img/SF338.jpg",
+				"title": "The Zane",
+				"alt": "shacker",
+				"capacity": "400ml"
+			},
+			{	
+				"classes": "400ml stainless-steel 5000pcs",
+				"img": "./img/SF285.jpg",
+				"title": "The Dorian",
+				"alt": "shacker",
+				"capacity": "400ml"
+			},
+			{	
+				"classes": "400ml tritan 5000pcs",
+				"img": "./img/SF503.jpg",
+				"title": "Pump",
+				"alt": "shacker",
+				"capacity": "400ml"
+			}
 		]
-		
 	}
 	
 }
