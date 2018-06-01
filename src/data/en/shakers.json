@@ -6,6 +6,8 @@
 		"filters": [
 			{
 				"title": "Capacity",
+				"subtitle": "All",
+				"class": "is-checked",
 				"tags": [
 					{
 						"class": "is-checked",
@@ -32,6 +34,8 @@
 			},
 			{
 				"title": "Features",
+				"subtitle": "All",
+				"class": "is-checked",
 				"tags": [
 					{
 						"class": "is-checked",
@@ -58,6 +62,8 @@
 			},
 			{
 				"title": "Minimum order quantity",
+				"subtitle": "5000pcs",
+				"class": "is-checked",
 				"tags": [
 					{
 						"class": "is-checked",

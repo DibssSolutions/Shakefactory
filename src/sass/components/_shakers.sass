@@ -25,53 +25,100 @@
 		display: flex
 		justify-content: space-between
 		margin-bottom: 92px
+		+r(871)
+			display: block
+			margin-bottom: 40px
+			text-align: left
+	&__content-mob
+		display: none
 		+r(870)
 			display: block
 			margin-bottom: 40px
+			text-align: left
 	&__col
+		position: relative
 		+r(870)
 			margin-bottom: 20px 
 	&__subtitle
 		margin-bottom: 12px
-
-.button-group
-	border: 1px solid $blue
-	font-size: 0
-	border-radius: 3px
+	&__button-group
+		border: 1px solid $blue
+		font-size: 0
+		border-radius: 3px
+		overflow: hidden
+		position: relative
+		+r(870)
+			position: absolute
+			opacity: 0
+			visibility: hidden
+			z-index: 10
+			margin-top: -1px
+			transition: opacity 0.5s, visibility 0.5s
+			border: 1px solid #1e8bf0
+			border-radius: 0 0 3px 3px
+			border: 1px solid $blue
+			font-size: 0
+			width: 100%
+			top: 100%
+			.is-open &
+				opacity: 1
+				visibility: visible
 	&__button
 		color: $blue
 		background: white
+		overflow: hidden
 		padding: 11px 10px 11px
 		font-size: 10px
 		line-height: 10px
-		+sm
-			padding: 5px  10px 5px
+		+r(870)
+			width: 100%
+			text-align: left
 		&.is-checked
 			background: $blue
 			color: $white
 			padding: 11px 13px
+	&__button-mob
+		display: none
+		+r(870)
+			padding: 11px 10px
+			font-size: 10px
+			line-height: 10px
+			display: block
+			width: 100%
+			text-align: left
+			position: relative
+			border: 1px solid $blue
+			border-radius: 3px
+			color: $blue
+			background: white
+			padding: 11px 10px 11px
+			.is-open &
+				border-radius: 3px 3px 0 0
+			.is-checked &
+				background: $blue
+				color: $white
+				padding: 11px 13px
+			&:after
+				content: ''
+				position: absolute
+				top: 50%
+				transform: translateY(-50%)
+				right: 10px
+				+arr(10,5, $blue, b)
+				.is-open &
+					+arr(10,5, $blue, t)
+	&__inner
+		margin: 0 -40px 
 
 .grid
-	// display: flex
-	flex-wrap: wrap
-	// margin: 0 -30px
-	margin: 0 auto
-	// +sm
-	// 	margin: 0 -15px		 
+	margin: 0 auto	 
 	&__col
-		// width: 20%
 		padding: 0 30px
 		margin-bottom: 60px
-		border: 1px solid red
 		height: 304px
-		width: 174px
+		width: 190px
 		+sm
 			margin-bottom: 20px
-		// +sm
-		// 	width: 33.33%
-		// 	padding: 0 15px
-		// +r(450)
-		// 	width: 50%
 
 .item
 	text-align: center
@@ -80,13 +127,11 @@
 	justify-content: center
 	align-items: flex-end
 	height: 100%
-	// width: 175px
 	&__info
 		width: 100%
 	&__img
 		margin-bottom: 23px
-		padding: 0 11px
-		// height: 279px
+		max-width: 105px
 		display: flex
 		align-items: flex-end
 		img
@@ -104,7 +149,7 @@
 		line-height: 17px
 		font-weight: 400
 		letter-spacing: -0.01em
-		color: $light-gray   
+		color: $light-gray  
 
 
 	

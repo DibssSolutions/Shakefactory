@@ -1,16 +1,12 @@
 import Isotope from 'isotope-layout';
-console.log('hello');
-
-
 
 var iso = new Isotope( '.grid', {
-  // options
-  
+  // options 
   itemSelector: '.grid__col',
   masonry: {
     // gutter: 70,
     horizontalOrder: true,
-    columnWidth: 174,
+    columnWidth: 190,
     isFitWidth: true
   },
   // layoutMode: 'vertical',
