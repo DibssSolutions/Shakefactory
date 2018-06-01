@@ -1,0 +1,28 @@
+{
+	"form" : [
+		{
+			"for": "Name",
+			"label": "Full Name",
+			"id": "name",
+			"placeholder": "Jane Doe",
+			"error": "errors"
+		},
+		{
+			"for": "email",
+			"label": "Email",
+			"id": "email",
+			"placeholder": "jane.doe@example.com",
+			"error": "errors"
+		},
+		{
+			"for": "website",
+			"label": "Company Website",
+			"id": "website",
+			"placeholder": "example.com",
+			"error": "errors"
+		}
+	],
+	"button": "Get In Touch",
+	"label": "Message",
+	"placehold": "Tell us more about your project, needs, and timeline."
+}

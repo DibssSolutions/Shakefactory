@@ -31,7 +31,7 @@
 			},
 			{
 				"title": "Contact",
-				"text": "Contact us at <a class='col__link' href='mailto:info@shakerfactory.com'>info@shakerfactory.com</a> or by Skype at paul.shakerfactory"
+				"text": "Contact us at <a class='link' href='mailto:info@shakerfactory.com'>info@shakerfactory.com</a> or by Skype at paul.shakerfactory"
 			},
 			{
 				"title": "Social",

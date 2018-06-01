@@ -1,0 +1,127 @@
+.contact
+	&__title
+		font-weight: 600
+		margin-bottom: 50px
+		+sm
+			margin-bottom: 25px
+	&__wrap
+		display: flex
+		justify-content: flex-start
+		margin: 0 auto
+		padding: 115px 0
+		max-width: 1005px
+		+sm
+			padding: 40px 0
+			flex-wrap: wrap
+
+	&__col
+		p
+			font-size: 18px
+			font-weight: 400
+			line-height: 1.31
+			color: $mine-shaft
+			+sm
+				font-size: 15px
+				margin-bottom: 15px
+		&:nth-child(odd)
+			flex: 1 1 60%
+			margin-right: 40px
+			+sm
+				flex: 1 1 100%
+				margin-right: 0
+		&:nth-child(even)
+			flex: 0 0 40%
+			margin-left: 20px
+			+sm
+				flex: 1 1 100%	
+				margin-left: 0
+				margin-top: 25px
+		+sm
+			text-align: center
+	&__title
+		font-size: 32px
+		+sm
+			font-size: 22px
+	&__link
+		color: $indigo
+		transition: border-bottom .3s
+		border-bottom: 1px solid $white
+		&:hover
+			border-bottom: 1px solid $indigo
+	&__form
+				
+
+.form
+	text-align: left
+	font-family: $opensans
+	max-width: 415px
+	min-width: 330px
+	margin: 0  auto
+	border: 2px solid $blue
+	border-radius: 4px
+	padding: 25px 35px 35px
+	+sm
+		max-width: 100%
+		min-width: 270px
+	&__row
+		.error
+			display: none
+	&__lable
+		display: block
+		text-transform: uppercase
+		font-size: 14px
+		font-weight: 700
+		line-height: 1
+		color: $night-blue
+		padding-left: 7px
+		margin-bottom: 5px
+		+sm
+			font-size: 12px
+	&__input,
+	&__textarea	
+		font-family: $opensans
+		font-size: 15px
+		font-weight: 400
+		line-height: .8
+		padding: 11px 15px 8px
+		color: $light-gray
+		width: 100%
+		background-color: $black-squeeze
+		border-radius: 4px
+		border: none
+		outline: none
+		margin-bottom: 15px
+		&:focus::-webkit-input-placeholder
+			color: transparent
+		&:focus:-moz-placeholder
+			color: transparent
+		&:focus::-moz-placeholder
+			color: transparent
+		&:focus:-ms-input-placeholder
+			color: transparent
+		+sm
+			font-size: 12px
+	&__textarea
+		height: 115px
+		resize: none
+		margin-bottom: 33px	
+
+
+.btn-submit
+	position: relative
+	background: none
+	background-color: $ellow
+	width: 100%
+	border-radius: 4px
+	text-transform: uppercase
+	font-size: 19px
+	font-weight: 600
+	line-height: 1
+	color: $night-blue
+	padding: 26px 0 23px
+	transition: background-color .3s
+	&:hover
+		background-color: #ffdd00
+
+
+
