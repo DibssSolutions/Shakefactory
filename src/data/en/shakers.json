@@ -14,19 +14,19 @@
 					},
 					{
 						"name": "400ml",
-						"attr": ".400ml"
+						"attr": ".fourhundred"
 					},
 					{
 						"name": "500ml",
-						"attr": ".500ml"
+						"attr": ".fivehundred"
 					},
 					{
 						"name": "600ml",
-						"attr": ".600ml"
+						"attr": ".sixhundred"
 					},
 					{
 						"name": "700+ml",
-						"attr": ".700ml"
+						"attr": ".sevenhundred"
 					}
 				]
 			},
@@ -62,26 +62,26 @@
 					{
 						"class": "is-checked",
 						"name": "5000pcs",
-						"attr": ".5000pcs"
+						"attr": ".five-thousand"
 					},
 					{
 						"name": "2500pcs",
-						"attr": ".2500pcs"
+						"attr": ".two-thousand-five-hundred"
 					},
 					{
 						"name": "1000pcs",
-						"attr": ".1000pcs"
+						"attr": ".one-thousand"
 					},
 					{
 						"name": "500pcs",
-						"attr": ".500pcs"
+						"attr": ".five-hundredpcs"
 					}
 				]
 			}
 		],
 		"products": [
 			{	
-				"classes": "700ml electric",
+				"classes": "sevenhundred electric two-thousand-five-hundred",
 				"category": "Electric",
 				"img": "./img/hercules6.png",
 				"title": "Wellness Choice (L)",
@@ -89,67 +89,67 @@
 				"capacity": "700ml"
 			},
 			{	
-				"classes": "700ml multi-compartment 5000pcs",
+				"classes": "sevenhundred multi-compartment five-hundredpcs",
 				"img": "./img/SF037-1.jpg",
 				"title": "The Tank",
 				"alt": "shacker",
 				"capacity": "700ml"
 			},
 			{	
-				"classes": "400ml multi-compartment 5000pcs",
+				"classes": "fourhundred multi-compartment five-thousand",
 				"img": "./img/SF107.jpg",
 				"title": "The Zane",
 				"alt": "shacker",
 				"capacity": "400ml"
 			},
 			{	
-				"classes": "600ml tritan 5000pcs",
+				"classes": "sixhundred tritan five-thousand",
 				"img": "./img/SF234.jpg",
 				"title": "The Dorian",
 				"alt": "shacker",
 				"capacity": "600ml"
 			},
 			{	
-				"classes": "600ml tritan 5000pcs",
+				"classes": "sixhundred tritan five-thousand",
 				"img": "./img/SF236.jpg",
 				"title": "Pump",
 				"alt": "shacker",
 				"capacity": "600ml"
 			},
 			{	
-				"classes": "400ml stainless-steel 5000pcs",
+				"classes": "sixhundred stainless-steel fivethousand",
 				"img": "./img/SF255-1_3.jpg",
 				"title": "Wellness Choice (L)",
 				"alt": "shacker",
 				"capacity": "400ml"
 			},
 			{	
-				"classes": "400ml tritan 5000pcs",
+				"classes": "fourhundred tritan five-thousand",
 				"img": "./img/SF352.jpg",
 				"title": "The Tank",
 				"alt": "shacker",
 				"capacity": "400ml"
 			},
 			{	
-				"classes": "400ml tritan 5000pcs",
+				"classes": "fourhundred tritan one-thousand",
 				"img": "./img/SF338.jpg",
 				"title": "The Zane",
 				"alt": "shacker",
 				"capacity": "400ml"
 			},
 			{	
-				"classes": "400ml stainless-steel 5000pcs",
+				"classes": "fourhundred stainless-steel five-thousand",
 				"img": "./img/SF285.jpg",
 				"title": "The Dorian",
 				"alt": "shacker",
 				"capacity": "400ml"
 			},
 			{	
-				"classes": "400ml tritan 5000pcs",
+				"classes": "fivehundred tritan five-thousand",
 				"img": "./img/SF503.jpg",
 				"title": "Pump",
 				"alt": "shacker",
-				"capacity": "400ml"
+				"capacity": "500ml"
 			}
 		]
 	}
