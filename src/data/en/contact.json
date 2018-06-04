@@ -9,21 +9,24 @@
 			"label": "Full Name",
 			"id": "name",
 			"placeholder": "Jane Doe",
-			"error": "errors"
+			"type": "text",
+			"name": "name"
 		},
 		{
 			"for": "email",
 			"label": "Email",
 			"id": "email",
 			"placeholder": "jane.doe@example.com",
-			"error": "errors"
+			"type": "email",
+			"name": "email"
 		},
 		{
 			"for": "website",
 			"label": "Company Website",
 			"id": "website",
-			"placeholder": "example.com",
-			"error": "errors"
+			"placeholder": "http://www.example.com",
+			"type": "url",
+			"name": "url"
 		}
 	],
 	"button": "Get In Touch",

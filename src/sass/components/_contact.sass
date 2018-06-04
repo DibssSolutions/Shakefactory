@@ -64,8 +64,20 @@
 		max-width: 100%
 		min-width: 270px
 	&__row
-		.error
-			display: none
+		position: relative
+		transition: color .3s
+		#name-error,
+		#email-error,
+		#website-error,	
+		#message-error
+			font-family: sans-serif
+			font-weight: 400	
+			color: red
+			font-size: 12px
+			position: absolute
+			bottom: -15px
+			left: 10px
+
 	&__lable
 		display: block
 		text-transform: uppercase
@@ -80,9 +92,9 @@
 	&__input,
 	&__textarea	
 		font-family: $opensans
-		font-size: 15px
+		font-size: 14px
 		font-weight: 400
-		line-height: .8
+		line-height: 1.2
 		padding: 11px 15px 8px
 		color: $light-gray
 		width: 100%
@@ -101,10 +113,24 @@
 			color: transparent
 		+sm
 			font-size: 12px
+	&__input
+		border: 1px solid #fff
+		transition: border .3s
+		&.error
+			display: block
+			border: 1px solid red
+
 	&__textarea
 		height: 115px
 		resize: none
-		margin-bottom: 33px	
+		margin-bottom: 33px
+		border: 1px solid #fff
+		transition: border .3s
+		&.error
+			display: block
+			border: 1px solid red
+
+
 
 
 .btn-submit
@@ -114,7 +140,7 @@
 	width: 100%
 	border-radius: 4px
 	text-transform: uppercase
-	font-size: 19px
+	font-size: 20px
 	font-weight: 600
 	line-height: 1
 	color: $night-blue

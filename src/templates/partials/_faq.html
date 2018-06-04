@@ -1,15 +1,15 @@
 <!-- Start faq -->
 <div class="faq">
 	<div class="faq__inner inner">
-		<div class="faq__wrap">
-			<h2 class="faq__title title-md_gray">{{ faq.title }}</h2>
+		<div class="faq__wrap wrap">
+			<h2 class="faq__title title-md title-md_gray">{{ faq.title }}</h2>
 			{% for item in row %}
-			<div class="row">
-				<h3 class="row__title title-m">{{ item.titles }}</h3>
-				<p class="row__description">{{ item.description }}</p>
-			</div>
+			<h3 class="title-m">{{ item.titles }}</h3>
+			<p>{{ item.description }}</p>
 			{% endfor %}
-			<p class="faq__text">{{ faq.text }} <a href="{{ faq.url }}" class="faq__info-link">{{ faq.link }}</a></p>
+			<div class="faq__info">
+				<p>{{ faq.text }} <a href="{{ faq.url }}" class="link">{{ faq.link }}</a></p>
+			</div>
 		</div>
 	</div>
 </div>
