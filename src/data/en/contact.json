@@ -9,21 +9,26 @@
 			"label": "Full Name",
 			"id": "name",
 			"placeholder": "Jane Doe",
-			"error": "errors"
+			"type": "text",
+			"name": "name",
+			"required": "required"
 		},
 		{
 			"for": "email",
 			"label": "Email",
 			"id": "email",
 			"placeholder": "jane.doe@example.com",
-			"error": "errors"
+			"type": "email",
+			"name": "email",
+			"required": "required"
 		},
 		{
 			"for": "website",
 			"label": "Company Website",
 			"id": "website",
-			"placeholder": "example.com",
-			"error": "errors"
+			"placeholder": "www.example.com",
+			"type": "text",
+			"name": "website"
 		}
 	],
 	"button": "Get In Touch",

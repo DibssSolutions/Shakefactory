@@ -8,21 +8,21 @@
 			</div>
 			<div class="contact__col ">
 				<div class="contact__form">
-					<form action="/" class="form">
+					<form method="POST" class="form js-form" onautocomplete="off">
 						{% for item in form %}
 						<div class="form__row">
 							<label class="form__lable" for="{{ item.for }}">{{ item.label }}</label>
-							<input class="form__input" id="{{ item.id }}" type="text" name="name" placeholder="{{ item.placeholder }}">
-							<span class="error">{{ item.error }}</span>
+							<input class="form__input" id="{{ item.id }}" type="{{ item.type }}" name="{{ item.name }}" placeholder="{{ item.placeholder }}" minlength="2" {{ item.required }}>
 						</div>
 						{% endfor %}
 						<div class="form__row">
 							<label class="form__lable" for="message">{{ label }}</label>
-							<textarea class="form__textarea" name="message" id="message" placeholder="{{ placehold }}"></textarea>
+							<textarea class="form__textarea" type="text" name="message" id="message" placeholder="{{ placehold }}"></textarea>
 						</div>
 						<div class="form__btn">
-							<button class="btn btn-submit" type="submit">{{ button }}</button>
+							<button id="btn-sub" class="btn btn-submit" type="submit">{{ button }}</button>
 						</div>
+						<div class="js-result">{{ result }}</div>
 					</form>
 				</div>
 			</div>
