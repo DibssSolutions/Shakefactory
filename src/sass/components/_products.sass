@@ -1,0 +1,29 @@
+.products
+	&__wrap
+		display: flex
+	&__col
+		width: 50%
+
+
+
+.slider-products
+	&__row:not(:last-child)
+		margin-bottom: 65px
+	&__item
+		height: 470px
+		img
+			max-width: 100%
+			display: block
+.foto-small
+	height: 76px
+	width: 76px
+	border: 2px solid #e8e7e7
+	.slick-slide.slick-current.slick-center &
+		border: 2px solid $blue
+	.slick-slide &
+		margin: 0 4px
+		width: calc(100% - 12px) !important
+
+	img
+		max-width: 100%
+		display: block 

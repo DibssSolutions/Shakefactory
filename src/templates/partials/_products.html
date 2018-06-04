@@ -3,8 +3,27 @@
 	<div class="products__inner inner">
 		<div class="products__wrap">
 			<div class="products__col">
+				<div class="slider-product">
+					<div class="slider-products__row js-slider-products">
+						{% for item in sliderProduct %}
+						<a href="#" class="slider-products__item">
+							<img src="{{item.imgBig}}" alt="">
+						</a>
+						{% endfor %}
+					</div>
+					<div class="slider-products__row js-slider-nav">
+						{% for item in sliderNavProduct %}
+						<div class="foto-small">
+							<img src="{{item.imgSmall}}">
+						</div>
+						{% endfor %}
+					</div>
+				</div>
 			</div>
 			<div class="products__col ">
+				<div class="products__title">
+					
+				</div>
 				<div class="products__form">
 					<form action="/" class="form">
 						{% for item in form %}

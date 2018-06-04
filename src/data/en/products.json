@@ -24,5 +24,33 @@
 	],
 	"button": "Get In Touch",
 	"label": "Message",
-	"placehold": "Tell us more about your project, needs, and timeline."
+	"placehold": "Tell us more about your project, needs, and timeline.",
+	"sliderProduct": [
+		{
+			"imgBig": "img/SF255-1_3b.jpg"	
+		},
+		{
+			"imgBig": "img/SF255-1_2.jpg"	
+		},
+		{
+			"imgBig": "img/SF255-1.jpg"	
+		},
+		{
+			"imgBig": "Lid-SF037-1.jpg"	
+		}
+	],
+	"sliderNavProduct": [
+		{
+			"imgSmall": "img/SF255-1_3b.jpg"	
+		},
+		{
+			"imgSmall": "img/SF255-1_2.jpg"	
+		},
+		{
+			"imgSmall": "img/SF255-1.jpg"	
+		},
+		{
+			"imgSmall": "Lid-SF037-1.jpg"	
+		}
+	]
 }
