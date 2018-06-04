@@ -1,3 +1,5 @@
 import validate from 'jquery-validation'; 
 
-$('#subForm').validate();
+$('#form').validate();
+
+
