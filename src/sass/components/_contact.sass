@@ -64,8 +64,20 @@
 		max-width: 100%
 		min-width: 270px
 	&__row
-		.error
-			display: none
+		position: relative
+		transition: color .3s
+		#name-error,
+		#email-error,
+		#website-error,	
+		#message-error
+			font-family: sans-serif
+			font-weight: 400	
+			color: red
+			font-size: 12px
+			position: absolute
+			bottom: -15px
+			left: 10px
+
 	&__lable
 		display: block
 		text-transform: uppercase
@@ -101,10 +113,24 @@
 			color: transparent
 		+sm
 			font-size: 12px
+	&__input
+		border: 1px solid #fff
+		transition: border .3s
+		&.error
+			display: block
+			border: 1px solid red
+
 	&__textarea
 		height: 115px
 		resize: none
-		margin-bottom: 33px	
+		margin-bottom: 33px
+		border: 1px solid #fff
+		transition: border .3s
+		&.error
+			display: block
+			border: 1px solid red
+
+
 
 
 .btn-submit
