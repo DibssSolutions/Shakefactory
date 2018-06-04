@@ -1,12 +1,15 @@
 $('.js-form').submit(function(e) {
   e.preventDefault();
-  var form_data = $(this).serialize();
+  var formData = $(this).serialize();
   $.ajax({
     type: 'POST',
     url: 'send.php',
-    data: form_data,
-    contentType: 'application/json',
+    data: formData,
     success: function() {
+      console.log('Ваше сообщение отпрвлено!');
+    },
+    error: function() {
+      console.log('Что-то пошло не так!');
     }
   });
 });
