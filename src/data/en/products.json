@@ -36,7 +36,7 @@
 			"imgBig": "img/SF255-1.jpg"	
 		},
 		{
-			"imgBig": "Lid-SF037-1.jpg"	
+			"imgBig": "img/Lid-SF037-1.jpg"	
 		}
 	],
 	"sliderNavProduct": [
@@ -50,7 +50,7 @@
 			"imgSmall": "img/SF255-1.jpg"	
 		},
 		{
-			"imgSmall": "Lid-SF037-1.jpg"	
+			"imgSmall": "img/Lid-SF037-1.jpg"	
 		}
 	]
 }
