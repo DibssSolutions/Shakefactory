@@ -1,11 +1,12 @@
-
-console.log('hi');
-$('#form').submit(function() {
+$('.js-form').submit(function(e) {
+  e.preventDefault();
   var form_data = $(this).serialize();
   $.ajax({
     type: 'POST',
     url: 'send.php',
     data: form_data,
-    success: function() {}
+    contentType: 'application/json',
+    success: function() {
+    }
   });
 });

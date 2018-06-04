@@ -10,7 +10,8 @@
 			"id": "name",
 			"placeholder": "Jane Doe",
 			"type": "text",
-			"name": "name"
+			"name": "name",
+			"required": "required"
 		},
 		{
 			"for": "email",
@@ -18,15 +19,16 @@
 			"id": "email",
 			"placeholder": "jane.doe@example.com",
 			"type": "email",
-			"name": "email"
+			"name": "email",
+			"required": "required"
 		},
 		{
 			"for": "website",
 			"label": "Company Website",
 			"id": "website",
-			"placeholder": "http://www.example.com",
-			"type": "url",
-			"name": "url"
+			"placeholder": "www.example.com",
+			"type": "text",
+			"name": "website"
 		}
 	],
 	"button": "Get In Touch",
