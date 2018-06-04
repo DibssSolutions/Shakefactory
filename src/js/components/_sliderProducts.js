@@ -10,7 +10,8 @@ $('.js-slider-nav').slick({
   slidesToShow: 5,
   slidesToScroll: 1,
   asNavFor: '.js-slider-products',
-  dots: true,
-  centerMode: true,
+  // dots: true,
+  // centerMode: true,
+  arrows: false,
   focusOnSelect: true
 });

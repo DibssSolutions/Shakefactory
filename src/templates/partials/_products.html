@@ -1,29 +1,55 @@
 <!-- Start products -->
 <div class="products">
-	<div class="products__inner inner">
+	<div class="products__inner">
 		<div class="products__wrap">
-			<div class="products__col">
-				<div class="slider-product">
-					<div class="slider-products__row js-slider-products">
-						{% for item in sliderProduct %}
-						<a href="#" class="slider-products__item">
-							<img src="{{item.imgBig}}" alt="">
-						</a>
-						{% endfor %}
-					</div>
-					<div class="slider-products__row js-slider-nav">
-						{% for item in sliderNavProduct %}
-						<div class="foto-small">
-							<img src="{{item.imgSmall}}">
+			<!-- <div class="products__col"> -->
+				<div class="products__slider">
+					<div class="slider-products">
+						<div class="slider-products__row js-slider-products">
+							{% for item in sliderProduct %}
+							<div class="slider-products__item">
+								{% if item.img %}
+									<img src="{{item.imgBig}}" alt="">
+								{% endif %}
+								{% if item.video %}
+									<iframe class="js-if" src="{{ item.videoHref }}" frameborder="0" controlls  allow="autoplay; encrypted-media" allowfullscreen></iframe>	
+								{% endif %}
+							</div>
+							{% endfor %}
 						</div>
-						{% endfor %}
+						<div class="slider-products__row js-slider-nav">
+							{% for item in sliderNavProduct %}
+							<div class="foto-small">
+								<img src="{{item.imgSmall}}">
+							</div>
+							{% endfor %}
+						</div>
+					</div>
+					<div class="block-item">
+						<a href='#' class="block-item__logo"><img src="{{ logo }}" alt="logo"></a>
+						<div class="block-item__text">{{ text }}</div>	
 					</div>
 				</div>
-			</div>
-			<div class="products__col ">
-				<div class="products__title">
-					
+						
+			<!-- </div> -->
+			<!-- <div class="products__col "> -->
+			<div class="products__info">
+				<div class="products__title-l title-l">
+					{{ title }}
 				</div>
+				<div class="products__subtitle">
+					{{ subtitle }}
+				</div>
+				<div class="products__description">
+					{{ description }}
+				</div>
+				<div class="products__size">
+					{{ parametr }}
+				</div>
+				<div class="products__size-value">
+					{{ value}}
+				</div>		
+				<div class="products__form-title">Request a quotation of SF255-1</div>	
 				<div class="products__form">
 					<form action="/" class="form">
 						{% for item in form %}
@@ -38,12 +64,13 @@
 							<textarea class="form__textarea" name="message" id="message" placeholder="{{ placehold }}"></textarea>
 						</div>
 						<div class="form__btn">
-							<button class="btn btn-submit" type="submit">{{ button }}</button>
+							<button class="btn btn-submit" type="submit">{{ buttonForm }}</button>
 						</div>
 					</form>
 				</div>
-			</div>
+			</div>				
+			<!-- </div> -->
 		</div>
 	</div>
 </div>
-<!-- End products -->
+<!-- End products
