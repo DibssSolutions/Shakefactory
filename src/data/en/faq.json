@@ -1,0 +1,50 @@
+{
+	"faq": {
+		"title": "Frequently asked questions",
+		"text": "If you any further questions, please feel free to contact us at",
+		"url": "#",
+		"link": "info@shakerfactory.com"
+	},
+	"row": [
+		{
+			"titles": "What is BPA?",
+			"description": "BPA (Bisphenol A) is a carbon based synthetic compound used to make many clear plastics, including bottles, which has been linked to possible hazards to fetuses, infants and young children."
+		},
+		{
+			"titles": "Are your products BPA free?",
+			"description": "Absolutely! Our number one goal is providing top quality and hazard-free products that are safe for any member of the family, which is why you will never find BPA in any of our products."
+		},
+		{
+			"titles": "What is leak-free technology?",
+			"description": "We use high quality and high tech seals on all of the lids and caps of our shakers, assuring that you will never have to worry about your shaker leaking in your bag."
+		},
+		{
+			"titles": "Are your products dishwasher safe?",
+			"description": "Yes, the vast majority of our products are top-rack dishwasher safe."
+		},
+		{
+			"titles": "What is UV printing?",
+			"description": "It is a method of printing whereby the logo is passed under very warm UV lights, assuring that the logo will be much longer-lasting than regular silk screen printing. This makes for logos that will even withstand various runs through the dishwasher."
+		},
+		{
+			"titles": "What is heat transfer printing?",
+			"description": "It is a method of printing used mainly for logos with many colors. A plastic film with the logo is heat sealed onto the bottle, making for the longest-lasting and highest quality printing for logos."
+		},
+		{
+			"titles": "Why don’t you use silk screen printing?",
+			"description": "One of the most common questions we get from customers is whether or not our logos will be long-lasting. The answer is yes, since we do not use any silk screen printing for the logos, which is a cheaper, but scratch prone printing method."
+		},
+		{
+			"titles": "What color can you make the lid and bottle?",
+			"description": "Any color you can imagine, we can make your bottles and lids in it! Just let us know the Pantone color."
+		},
+		{
+			"titles": "Can I put my logo on you shakers?",
+			"description": "It is our specialty! Put any logo you like on your shaker bottles."
+		},
+		{
+			"titles": "Where are your products made?",
+			"description": "All of our products are made at our factories in China."
+		}
+	]
+}

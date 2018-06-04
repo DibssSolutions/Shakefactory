@@ -39,22 +39,114 @@
           <h2 class="shakers__title title-md title-md_gray">Find a shaker that suits your needs. All shakers can be customized with your logo and any color on lid and body.</h2>
           <div class="shakers__img"> <img src="img/shakers-img.png" alt="logo"> </div>
         </div>
-        <div class="shakers__content">
-          <div class="shakers__col">
-            <h5 class="shakers__subtitle title-sm">Capacity</h5>
-            <div class="shakers__button-group button-group js-filters"> <button class="button-group__button is-checked" data-filter="*">All</button> <button class="button-group__button" data-filter="400ml">400ml</button> <button class="button-group__button" data-filter="500ml">500ml</button> <button class="button-group__button"
-                data-filter="600ml">600ml</button> <button class="button-group__button" data-filter="700+ml">700+ml</button> </div>
+        <div class="shakers__in">
+          <div class="shakers__content js-block-dropdown">
+            <div class="shakers__col js-dropdown">
+              <h5 class="shakers__subtitle title-sm">Capacity</h5> <button class="shakers__button-mob shakers__dropdown js-dropdown-btn">All</button>
+              <div class="shakers__button-group button-group js-filters js-dropdown-wrap"> <button class="shakers__button js-btn-filters is-checked" data-filter="*">All</button> <button class="shakers__button js-btn-filters" data-filter=".fourhundred">400ml</button> <button class="shakers__button js-btn-filters" data-filter=".fivehundred">500ml</button>                <button class="shakers__button js-btn-filters" data-filter=".sixhundred">600ml</button> <button class="shakers__button js-btn-filters" data-filter=".sevenhundred">700+ml</button> </div>
+            </div>
+            <div class="shakers__col js-dropdown">
+              <h5 class="shakers__subtitle title-sm">Features</h5> <button class="shakers__button-mob shakers__dropdown js-dropdown-btn">All</button>
+              <div class="shakers__button-group button-group js-filters js-dropdown-wrap"> <button class="shakers__button js-btn-filters is-checked" data-filter="*">All</button> <button class="shakers__button js-btn-filters" data-filter=".electric">Electric</button> <button class="shakers__button js-btn-filters" data-filter=".tritan">Tritan</button>                <button class="shakers__button js-btn-filters" data-filter=".stainless-steel">Stainless Steel</button> <button class="shakers__button js-btn-filters" data-filter=".multi-compartment">Multi-compartment</button> </div>
+            </div>
+            <div class="shakers__col js-dropdown">
+              <h5 class="shakers__subtitle title-sm">Minimum order quantity</h5> <button class="shakers__button-mob shakers__dropdown js-dropdown-btn">5000pcs</button>
+              <div class="shakers__button-group button-group js-filters js-dropdown-wrap"> <button class="shakers__button js-btn-filters is-checked" data-filter=".five-thousand">5000pcs</button> <button class="shakers__button js-btn-filters" data-filter=".two-thousand-five-hundred">2500pcs</button> <button class="shakers__button js-btn-filters"
+                  data-filter=".one-thousand">1000pcs</button> <button class="shakers__button js-btn-filters" data-filter=".five-hundredpcs">500pcs</button> </div>
+            </div>
           </div>
-          <div class="shakers__col">
-            <h5 class="shakers__subtitle title-sm">Features</h5>
-            <div class="shakers__button-group button-group js-filters"> <button class="button-group__button is-checked" data-filter="*">All</button> <button class="button-group__button" data-filter="Electric">Electric</button> <button class="button-group__button" data-filter="Tritan">Tritan</button> <button class="button-group__button"
-                data-filter="Stainless Steel">Stainless Steel</button> <button class="button-group__button" data-filter="Multi-compartment">Multi-compartment</button> </div>
-          </div>
-          <div class="shakers__col">
-            <h5 class="shakers__subtitle title-sm">Minimum order quantity</h5>
-            <div class="shakers__button-group button-group js-filters"> <button class="button-group__button is-checked" data-filter="*">5000pcs</button> <button class="button-group__button" data-filter="2500pcs">2500pcs</button> <button class="button-group__button" data-filter="1000pcs">1000pcs</button>
-              <button
-                class="button-group__button" data-filter="500pcs">500pcs</button>
+          <div class="shakers__inner">
+            <div class="shakers__grid grid js-grid">
+              <div class="grid__col js-grid-col sevenhundred electric two-thousand-five-hundred">
+                <div class="grid__item item" data-category="Electric">
+                  <div class="item__img"> <img src="./img/hercules6.png" alt="shacker"> </div>
+                  <div class="item__info">
+                    <div class="item__title">Wellness Choice (L)</div>
+                    <div class="item__capacity">700ml</div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid__col js-grid-col sevenhundred multi-compartment five-hundredpcs">
+                <div class="grid__item item" data-category="">
+                  <div class="item__img"> <img src="./img/SF037-1.jpg" alt="shacker"> </div>
+                  <div class="item__info">
+                    <div class="item__title">The Tank</div>
+                    <div class="item__capacity">700ml</div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid__col js-grid-col fourhundred multi-compartment five-thousand">
+                <div class="grid__item item" data-category="">
+                  <div class="item__img"> <img src="./img/SF107.jpg" alt="shacker"> </div>
+                  <div class="item__info">
+                    <div class="item__title">The Zane</div>
+                    <div class="item__capacity">400ml</div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid__col js-grid-col sixhundred tritan five-thousand">
+                <div class="grid__item item" data-category="">
+                  <div class="item__img"> <img src="./img/SF234.jpg" alt="shacker"> </div>
+                  <div class="item__info">
+                    <div class="item__title">The Dorian</div>
+                    <div class="item__capacity">600ml</div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid__col js-grid-col sixhundred tritan five-thousand">
+                <div class="grid__item item" data-category="">
+                  <div class="item__img"> <img src="./img/SF236.jpg" alt="shacker"> </div>
+                  <div class="item__info">
+                    <div class="item__title">Pump</div>
+                    <div class="item__capacity">600ml</div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid__col js-grid-col sixhundred stainless-steel fivethousand">
+                <div class="grid__item item" data-category="">
+                  <div class="item__img"> <img src="./img/SF255-1_3.jpg" alt="shacker"> </div>
+                  <div class="item__info">
+                    <div class="item__title">Wellness Choice (L)</div>
+                    <div class="item__capacity">400ml</div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid__col js-grid-col fourhundred tritan five-thousand">
+                <div class="grid__item item" data-category="">
+                  <div class="item__img"> <img src="./img/SF352.jpg" alt="shacker"> </div>
+                  <div class="item__info">
+                    <div class="item__title">The Tank</div>
+                    <div class="item__capacity">400ml</div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid__col js-grid-col fourhundred tritan one-thousand">
+                <div class="grid__item item" data-category="">
+                  <div class="item__img"> <img src="./img/SF338.jpg" alt="shacker"> </div>
+                  <div class="item__info">
+                    <div class="item__title">The Zane</div>
+                    <div class="item__capacity">400ml</div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid__col js-grid-col fourhundred stainless-steel five-thousand">
+                <div class="grid__item item" data-category="">
+                  <div class="item__img"> <img src="./img/SF285.jpg" alt="shacker"> </div>
+                  <div class="item__info">
+                    <div class="item__title">The Dorian</div>
+                    <div class="item__capacity">400ml</div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid__col js-grid-col fivehundred tritan five-thousand">
+                <div class="grid__item item" data-category="">
+                  <div class="item__img"> <img src="./img/SF503.jpg" alt="shacker"> </div>
+                  <div class="item__info">
+                    <div class="item__title">Pump</div>
+                    <div class="item__capacity">500ml</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -70,7 +162,7 @@
             </div>
             <div class="col">
               <h4 class="title-xs title-xs_mod">Contact</h4>
-              <p class="col__text">Contact us at <a class='col__link' href='mailto:info@shakerfactory.com'>info@shakerfactory.com</a> or by Skype at paul.shakerfactory</p>
+              <p class="col__text">Contact us at <a class='link' href='mailto:info@shakerfactory.com'>info@shakerfactory.com</a> or by Skype at paul.shakerfactory</p>
             </div>
             <div class="col">
               <h4 class="title-xs title-xs_mod">Social</h4>

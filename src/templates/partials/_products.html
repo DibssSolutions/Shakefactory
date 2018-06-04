@@ -1,0 +1,49 @@
+<!-- Start products -->
+<div class="products">
+	<div class="products__inner inner">
+		<div class="products__wrap">
+			<div class="products__col">
+				<div class="slider-product">
+					<div class="slider-products__row js-slider-products">
+						{% for item in sliderProduct %}
+						<a href="#" class="slider-products__item">
+							<img src="{{item.imgBig}}" alt="">
+						</a>
+						{% endfor %}
+					</div>
+					<div class="slider-products__row js-slider-nav">
+						{% for item in sliderNavProduct %}
+						<div class="foto-small">
+							<img src="{{item.imgSmall}}">
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+			<div class="products__col ">
+				<div class="products__title">
+					
+				</div>
+				<div class="products__form">
+					<form action="/" class="form">
+						{% for item in form %}
+						<div class="form__row">
+							<label class="form__lable" for="{{ item.for }}">{{ item.label }}</label>
+							<input class="form__input" id="{{ item.id }}" type="text" name="name" placeholder="{{ item.placeholder }}">
+							<span class="error">{{ item.error }}</span>
+						</div>
+						{% endfor %}
+						<div class="form__row">
+							<label class="form__lable" for="message">{{ label }}</label>
+							<textarea class="form__textarea" name="message" id="message" placeholder="{{ placehold }}"></textarea>
+						</div>
+						<div class="form__btn">
+							<button class="btn btn-submit" type="submit">{{ button }}</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End products -->

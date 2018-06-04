@@ -1,0 +1,32 @@
+<!-- Start contact -->
+<div class="contact">
+	<div class="contact__inner inner">
+		<div class="contact__wrap">
+			<div class="contact__col">
+				<h2 class="contact__title title-md_gray">{{ contact.title }}</h2>
+				<p>{{ contact.description | safe }}</p>
+			</div>
+			<div class="contact__col ">
+				<div class="contact__form">
+					<form action="/" class="form">
+						{% for item in form %}
+						<div class="form__row">
+							<label class="form__lable" for="{{ item.for }}">{{ item.label }}</label>
+							<input class="form__input" id="{{ item.id }}" type="text" name="name" placeholder="{{ item.placeholder }}">
+							<span class="error">{{ item.error }}</span>
+						</div>
+						{% endfor %}
+						<div class="form__row">
+							<label class="form__lable" for="message">{{ label }}</label>
+							<textarea class="form__textarea" name="message" id="message" placeholder="{{ placehold }}"></textarea>
+						</div>
+						<div class="form__btn">
+							<button class="btn btn-submit" type="submit">{{ button }}</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End contact -->

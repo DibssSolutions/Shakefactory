@@ -1,0 +1,32 @@
+{
+	"contact": {
+		"title": "Contact us for information about customized needs assesmnet, products catalog, and supply chain management services.",
+		"description": " We are at your disposal Monday to Friday between 7:00 and 18:00. If you would like a quotations for a custom order, please indicate the order quantity and desired specifications. If you have selected a model from our Products pages, please mention the Product No, required specifications, and order quantity in your message. This information will help us get back to you with a competitive quote. Contact us at <a class='link' href='mailto:info@shakerfactory.com'>info@shakerfactory.com</a> or by Skype at paul.shakerfactory."
+	},
+	"form" : [
+		{
+			"for": "Name",
+			"label": "Full Name",
+			"id": "name",
+			"placeholder": "Jane Doe",
+			"error": "errors"
+		},
+		{
+			"for": "email",
+			"label": "Email",
+			"id": "email",
+			"placeholder": "jane.doe@example.com",
+			"error": "errors"
+		},
+		{
+			"for": "website",
+			"label": "Company Website",
+			"id": "website",
+			"placeholder": "example.com",
+			"error": "errors"
+		}
+	],
+	"button": "Get In Touch",
+	"label": "Message",
+	"placehold": "Tell us more about your project, needs, and timeline."
+}
