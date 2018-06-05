@@ -8,7 +8,7 @@
 			</div>
 			<div class="contact__col ">
 				<div class="contact__form">
-					<form method="POST" class="form js-form" onautocomplete="off">
+					<form class="form js-form">
 						{% for item in form %}
 						<div class="form__row">
 							<label class="form__lable" for="{{ item.for }}">{{ item.label }}</label>
@@ -20,7 +20,7 @@
 							<textarea class="form__textarea" type="text" name="message" id="message" placeholder="{{ placehold }}"></textarea>
 						</div>
 						<div class="form__btn">
-							<button id="btn-sub" class="btn btn-submit" type="submit">{{ button }}</button>
+							<button class="btn btn-submit js-btn-submit" type="submit">{{ button }}</button>
 						</div>
 						<div class="success js-success">{{ success }}</div>
 						<div class="success-error js-success-error">{{ senterror }}</div>
