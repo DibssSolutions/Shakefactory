@@ -79,6 +79,7 @@
   "dependencies": {
     "gsap": "^1.20.3",
     "isotope-layout": "^3.0.6",
+    "select2": "^4.0.6-rc.1",
     "svg4everybody": "^2.1.9"
   }
 }

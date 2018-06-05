@@ -2,7 +2,6 @@
 	border-bottom: 1px solid $darken-blue
 	border-top: 1px solid $darken-blue
 	margin-bottom: 65px
-	
 	+sm
 		margin-bottom: 30px
 	.slick-list
@@ -10,7 +9,6 @@
 		border-right: 1px solid $darken-blue
 	.slick-track
 		display: flex
-		// flex-wrap: wrap
 		.slick-slide
 			height: initial
 			& > div,
@@ -26,29 +24,34 @@
 		background: transparent
 		+sm
 			left: -20px
-		.icon-arrow
+		svg
 			fill: $blue
 			width: 28px
 			height: 31px
 			+sm
 				width: 12px
 				height: 15px
+			path
+				fill: $blue
 	&__next
 		position: absolute
 		top: 50%
 		transform: translateY(-50%) rotate(-180deg)
 		right: -38px
 		cursor: pointer
+		color: $blue
 		background: transparent
 		+sm
 			right: -20px
-		.icon-arrow
+		svg
 			fill: $blue
 			width: 28px
 			height: 31px
 			+sm
 				width: 12px
 				height: 15px
+			path
+				fill: $blue
 	&__inner
 		padding: 0 45px 
 		max-width: 1260px

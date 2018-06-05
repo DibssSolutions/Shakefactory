@@ -2,7 +2,6 @@
 <div class="products">
 	<div class="products__inner">
 		<div class="products__wrap">
-			<!-- <div class="products__col"> -->
 				<div class="products__slider">
 					<div class="slider-products">
 						<div class="slider-products__row js-slider-products">
@@ -19,7 +18,9 @@
 						</div>
 						<div class="slider-products__row js-slider-nav">
 							{% for item in sliderNavProduct %}
-							<div class="foto-small" style="background-image:url(' {{ item.imgSmall }} ')">
+							<div class="foto-small">
+								<div class="foto-small__inner" style="background-image:url(' {{ item.imgSmall }} ')">
+							</div>
 							</div>
 							{% endfor %}
 						</div>
@@ -29,8 +30,6 @@
 						<div class="block-item__text">{{ text }}</div>	
 					</div>
 				</div>					
-			<!-- </div> -->
-			<!-- <div class="products__col "> -->
 			<div class="products__info">
 				<div class="products__title-l title-l">
 					{{ title }}
@@ -48,14 +47,23 @@
 					{{ value}}
 				</div>		
 				<div class="products__form-title">Request a quotation of SF255-1</div>	
-				<div class="products__form">
-					<form action="/" class="form">
+					<form action="/" class="form products__form">
 						{% for item in form %}
 						<div class="form__row">
 							<label class="form__lable" for="{{ item.for }}">{{ item.label }}</label>
 							<input class="form__input" id="{{ item.id }}" type="text" name="name" placeholder="{{ item.placeholder }}">
 						</div>
 						{% endfor %}
+						<div class="form__row">
+							<label class="form__lable">{{ labelSelect }}</label>
+							<div class="form__select select">
+								<select class="js-select" style="width:100%" name="state">
+									{% for item in select %}
+										<option value="AL">{{item.value}}</option>
+									{% endfor %}
+								</select>
+							</div>	
+						</div>
 						<div class="form__row">
 							<label class="form__lable" for="message">{{ label }}</label>
 							<textarea class="form__textarea" name="message" id="message" placeholder="{{ placehold }}"></textarea>
@@ -64,10 +72,8 @@
 							<button class="btn btn-submit" type="submit">{{ buttonForm }}</button>
 						</div>
 					</form>
-				</div>
 			</div>				
-			<!-- </div> -->
 		</div>
 	</div>
 </div>
-<!-- End products
+<!-- End products -->

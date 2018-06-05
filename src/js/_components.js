@@ -7,3 +7,4 @@ import './components/_init-fancybox3';
 import './components/_init-validation-form';
 import './components/_dropdown.js';
 import './components/_ajax.js';
+import './components/_initSelect2.js';

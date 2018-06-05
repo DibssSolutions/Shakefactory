@@ -39,7 +39,6 @@
       <div class="products">
         <div class="products__inner">
           <div class="products__wrap">
-            <!-- <div class="products__col"> -->
             <div class="products__slider">
               <div class="slider-products">
                 <div class="slider-products__row js-slider-products">
@@ -58,24 +57,42 @@
                   <div class="slider-products__item"> <iframe src="https://www.youtube.com/embed/2se9Thz5zyg?ecver=2" frameborder="0" controlls allow="autoplay; encrypted-media" allowfullscreen></iframe> </div>
                 </div>
                 <div class="slider-products__row js-slider-nav">
-                  <div class="foto-small" style="background-image:url(' img/SF255-1_3b.jpg ')"> </div>
-                  <div class="foto-small" style="background-image:url(' img/SF255-1_2.jpg ')"> </div>
-                  <div class="foto-small" style="background-image:url(' img/SF255-1.jpg ')"> </div>
-                  <div class="foto-small" style="background-image:url(' img/Lid-SF037-1.jpg ')"> </div>
-                  <div class="foto-small" style="background-image:url(' img/video.png ')"> </div>
-                  <div class="foto-small" style="background-image:url(' img/SF255-1_3b.jpg ')"> </div>
-                  <div class="foto-small" style="background-image:url(' img/SF255-1_2.jpg ')"> </div>
-                  <div class="foto-small" style="background-image:url(' img/SF255-1.jpg ')"> </div>
-                  <div class="foto-small" style="background-image:url(' img/Lid-SF037-1.jpg ')"> </div>
-                  <div class="foto-small" style="background-image:url(' img/video.png ')"> </div>
+                  <div class="foto-small">
+                    <div class="foto-small__inner" style="background-image:url(' img/SF255-1_3b.jpg ')"> </div>
+                  </div>
+                  <div class="foto-small">
+                    <div class="foto-small__inner" style="background-image:url(' img/SF255-1_2.jpg ')"> </div>
+                  </div>
+                  <div class="foto-small">
+                    <div class="foto-small__inner" style="background-image:url(' img/SF255-1.jpg ')"> </div>
+                  </div>
+                  <div class="foto-small">
+                    <div class="foto-small__inner" style="background-image:url(' img/Lid-SF037-1.jpg ')"> </div>
+                  </div>
+                  <div class="foto-small">
+                    <div class="foto-small__inner" style="background-image:url(' img/video.png ')"> </div>
+                  </div>
+                  <div class="foto-small">
+                    <div class="foto-small__inner" style="background-image:url(' img/SF255-1_3b.jpg ')"> </div>
+                  </div>
+                  <div class="foto-small">
+                    <div class="foto-small__inner" style="background-image:url(' img/SF255-1_2.jpg ')"> </div>
+                  </div>
+                  <div class="foto-small">
+                    <div class="foto-small__inner" style="background-image:url(' img/SF255-1.jpg ')"> </div>
+                  </div>
+                  <div class="foto-small">
+                    <div class="foto-small__inner" style="background-image:url(' img/Lid-SF037-1.jpg ')"> </div>
+                  </div>
+                  <div class="foto-small">
+                    <div class="foto-small__inner" style="background-image:url(' img/video.png ')"> </div>
+                  </div>
                 </div>
               </div>
               <div class="block-item"> <a href='#' class="block-item__logo"><img src="img/shakers-img.png" alt="logo"></a>
                 <div class="block-item__text">ll items can be customized with you logo and any color on lid and body.</div>
               </div>
             </div>
-            <!-- </div> -->
-            <!-- <div class="products__col "> -->
             <div class="products__info">
               <div class="products__title-l title-l"> Zen </div>
               <div class="products__subtitle"> Ref. Code SF255-1 </div>
@@ -83,22 +100,30 @@
               <div class="products__size"> Size: </div>
               <div class="products__size-value"> 500ml </div>
               <div class="products__form-title">Request a quotation of SF255-1</div>
-              <div class="products__form">
-                <form action="/" class="form">
-                  <div class="form__row"> <label class="form__lable" for="Name">Full Name</label> <input class="form__input" id="name" type="text" name="name" placeholder="Jane Doe"> </div>
-                  <div class="form__row"> <label class="form__lable" for="email">Email</label> <input class="form__input" id="email" type="text" name="name" placeholder="jane.doe@example.com"> </div>
-                  <div class="form__row"> <label class="form__lable" for="website">Company Website</label> <input class="form__input" id="website" type="text" name="name" placeholder="example.com"> </div>
-                  <div class="form__row"> <label class="form__lable" for="message">Message</label> <textarea class="form__textarea" name="message" id="message" placeholder="Tell us more about your project, needs, and timeline."></textarea> </div>
-                  <div class="form__btn"> <button class="btn btn-submit" type="submit">Send inquiry</button> </div>
-                </form>
-              </div>
+              <form action="/" class="form products__form">
+                <div class="form__row"> <label class="form__lable" for="Name">Full Name</label> <input class="form__input" id="name" type="text" name="name" placeholder="Jane Doe"> </div>
+                <div class="form__row"> <label class="form__lable" for="email">Email</label> <input class="form__input" id="email" type="text" name="name" placeholder="jane.doe@example.com"> </div>
+                <div class="form__row"> <label class="form__lable" for="website">Company Website</label> <input class="form__input" id="website" type="text" name="name" placeholder="example.com"> </div>
+                <div class="form__row"> <label class="form__lable">Order quantity</label>
+                  <div class="form__select select"> <select class="js-select" style="width:100%" name="state">
+									
+										<option value="AL">500 pcs</option>
+									
+										<option value="AL">600 pcs</option>
+									
+										<option value="AL">700 pcs</option>
+									
+								</select> </div>
+                </div>
+                <div class="form__row"> <label class="form__lable" for="message">Message</label> <textarea class="form__textarea" name="message" id="message" placeholder="Tell us more about your project, needs, and timeline."></textarea> </div>
+                <div class="form__btn"> <button class="btn btn-submit" type="submit">Send inquiry</button> </div>
+              </form>
             </div>
-            <!-- </div> -->
           </div>
         </div>
       </div>
-      <!-- End products
-	<!-- Start footer -->
+      <!-- End products -->
+      <!-- Start footer -->
       <div class="footer">
         <div class="footer__inner inner">
           <div class="footer__row">

@@ -22,6 +22,18 @@
 	"buttonForm": "Send inquiry",
 	"label": "Message",
 	"placehold": "Tell us more about your project, needs, and timeline.",
+	"labelSelect": "Order quantity",
+	"select": [
+		{
+			"value": "500 pcs"
+		},
+		{
+			"value": "600 pcs"
+		},
+		{
+			"value": "700 pcs"
+		}
+	],
 	"sliderProduct": [
 		{
 			"imgBig": "img/SF255-1_3b.jpg",

@@ -1,17 +1,25 @@
 import slick from 'slick-carousel';
+var sliderProducts = $('.js-slider-products');
+var sliderNav = $('.js-slider-nav');
 
-$('.js-slider-products').slick({
+sliderProducts.slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
   asNavFor: '.js-slider-nav'
 });
-$('.js-slider-nav').slick({
+sliderNav.slick({
   slidesToShow: 5,
   slidesToScroll: 1,
   asNavFor: '.js-slider-products',
-  // dots: true,
-  // centerMode: true,
   arrows: false,
-  focusOnSelect: true
+  focusOnSelect: true,
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 4
+      }
+    }
+  ]
 });
