@@ -4,22 +4,19 @@
 			"for": "Name",
 			"label": "Full Name",
 			"id": "name",
-			"placeholder": "Jane Doe",
-			"error": "errors"
+			"placeholder": "Jane Doe"
 		},
 		{
 			"for": "email",
 			"label": "Email",
 			"id": "email",
-			"placeholder": "jane.doe@example.com",
-			"error": "errors"
+			"placeholder": "jane.doe@example.com"
 		},
 		{
 			"for": "website",
 			"label": "Company Website",
 			"id": "website",
-			"placeholder": "example.com",
-			"error": "errors"
+			"placeholder": "example.com"
 		}
 	],
 	"buttonForm": "Send inquiry",

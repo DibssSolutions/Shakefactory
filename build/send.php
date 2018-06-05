@@ -1,5 +1,5 @@
 <?
-    if ((isset($_POST['name']) && $_POST['name'] != "") && (isset($_POST['email']) && $_POST['email'] != "")&& (isset($_POST['url']) && $_POST['url'] != "") && (isset($_POST['message']) && $_POST['message'] != "")) {
+    if ((isset($_POST['name']) && $_POST['name'] != "") && (isset($_POST['email']) && $_POST['email'] != "")) {
             $to = 'stasumanskiy@gmail.com';
             $subject = 'Shakefactory';
             $message = '
