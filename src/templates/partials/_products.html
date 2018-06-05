@@ -9,18 +9,17 @@
 							{% for item in sliderProduct %}
 							<div class="slider-products__item">
 								{% if item.img %}
-									<img src="{{item.imgBig}}" alt="">
+								<div class="slider-products__item-in" style="background-image:url(' {{ item.imgBig }} ')"></div>
 								{% endif %}
 								{% if item.video %}
-									<iframe class="js-if" src="{{ item.videoHref }}" frameborder="0" controlls  allow="autoplay; encrypted-media" allowfullscreen></iframe>	
+									<iframe src="{{ item.videoHref }}" frameborder="0" controlls  allow="autoplay; encrypted-media" allowfullscreen></iframe>	
 								{% endif %}
 							</div>
 							{% endfor %}
 						</div>
 						<div class="slider-products__row js-slider-nav">
 							{% for item in sliderNavProduct %}
-							<div class="foto-small">
-								<img src="{{item.imgSmall}}">
+							<div class="foto-small" style="background-image:url(' {{ item.imgSmall }} ')">
 							</div>
 							{% endfor %}
 						</div>
@@ -29,8 +28,7 @@
 						<a href='#' class="block-item__logo"><img src="{{ logo }}" alt="logo"></a>
 						<div class="block-item__text">{{ text }}</div>	
 					</div>
-				</div>
-						
+				</div>					
 			<!-- </div> -->
 			<!-- <div class="products__col "> -->
 			<div class="products__info">
