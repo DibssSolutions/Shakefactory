@@ -1,29 +1,157 @@
 .products
+	&__inner
+		max-width: 1010px
+		padding: 0 20px 
+		margin: 0 auto
+		+sm
+			padding: 0 15px   
 	&__wrap
 		display: flex
+		// max-width: 970px
+		justify-content: space-between
+		// margin: 0 -40px
+		padding-top: 125px
+		+md
+			display: block
+		+sm
+			padding-top: 60px
 	&__col
 		width: 50%
-
-
+		padding: 0 40px
+	&__slider
+		max-width: 478px
+		margin-right: 10px
+		+md
+			margin-right: 0
+			max-width: 100%
+		+sm
+			margin-bottom: 30px
+	&__info
+		max-width: 415px
+		margin-left: 10px
+		+md
+			margin-left: 0
+			max-width: 100%
+	&__title-l
+		margin-bottom: 15px
+	&__subtitle
+		font-size: 27px
+		line-height: 1.79
+		margin-bottom: 26px
+		color: $light-gray
+		font-weight: 400 
+		+sm
+			font-size: 18px
+			margin-bottom: 13px
+	&__description
+		font-size: 20px
+		line-height: 1.59
+		margin-bottom: 38px
+		color: $light-gray
+		font-weight: 400 
+		+sm
+			font-size: 13px
+			margin-bottom: 20px
+	&__size
+		color: $night-blue
+		font-weight: 700
+		line-height: 1.69
+		font-size: 17px
+		+sm
+			font-size: 15px 
+	&__size-value
+		color: $light-gray
+		font-size: 20px
+		line-height: 1.48
+		font-weight: 400
+		margin-bottom: 16px
+		+sm
+			font-size: 18px
+			margin-bottom: 20px
+	&__form-title
+		font-size: 17px
+		color: $night-blue
+		font-weight: 700
+		line-height: 2.08
+		margin-bottom: 15px
+		+sm
+			font-size: 15px  
 
 .slider-products
+	margin-bottom: 81px
+	+sm
+		margin-bottom: 40px
 	&__row:not(:last-child)
 		margin-bottom: 65px
+		+sm
+			margin-bottom: 30px
 	&__item
-		height: 470px
+		// height: 470px
+		padding-bottom: 98.33%
+		position: relative 
 		img
 			max-width: 100%
 			display: block
+		iframe
+			width: 100%
+			height: 100%
+			position: absolute
+	&__item-in
+		background-size: contain
+		background-repeat: no-repeat
+		background-position: 50% 50% 
+		position: absolute
+		left: 0
+		top: 0
+		bottom: 0
+		right: 0 
+
 .foto-small
-	height: 76px
+	height: 100%
 	width: 76px
+	padding-bottom: 76%
 	border: 2px solid #e8e7e7
-	.slick-slide.slick-current.slick-center &
+	cursor: pointer
+	background-size: contain
+	background-position: 50% 50% 
+	background-repeat: no-repeat
+	.slick-slide.slick-current &
 		border: 2px solid $blue
 	.slick-slide &
 		margin: 0 4px
 		width: calc(100% - 12px) !important
-
 	img
 		max-width: 100%
 		display: block 
+
+.block-item
+	background: $lilyWhite 
+	border: 1px solid $blueZodiac
+	position: relative
+	padding: 25px 20px 25px 0
+	&__logo
+		max-width: 147px
+		position: absolute
+		top: -37%
+		left: 20px
+		display: block
+		+md
+			position: relative
+			display: block
+			left: 50%
+			transform: translateX(-50%)
+		img
+			max-width: 100%
+			display: block
+	&__text
+		font-size: 15px
+		font-weight: 400 
+		line-height: 1.59
+		margin-left: 185px
+		max-width: 270px
+		letter-spacing: -0.02em
+		color: $light-gray
+		+md
+			max-width: 100%
+			margin-left: 0
+			text-align: center

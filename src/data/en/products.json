@@ -22,21 +22,30 @@
 			"error": "errors"
 		}
 	],
-	"button": "Get In Touch",
+	"buttonForm": "Send inquiry",
 	"label": "Message",
 	"placehold": "Tell us more about your project, needs, and timeline.",
 	"sliderProduct": [
 		{
-			"imgBig": "img/SF255-1_3b.jpg"	
+			"imgBig": "img/SF255-1_3b.jpg",
+			"img": true	
 		},
 		{
-			"imgBig": "img/SF255-1_2.jpg"	
+			"imgBig": "img/SF255-1_2.jpg",
+			"img": true	
 		},
 		{
-			"imgBig": "img/SF255-1.jpg"	
+			"imgBig": "img/SF255-1.jpg",
+			"img": true	
 		},
 		{
-			"imgBig": "Lid-SF037-1.jpg"	
+			"imgBig": "img/Lid-SF037-1.jpg",
+			"img": true	
+		},
+		{
+			"video": true,
+
+			"videoHref": "https://www.youtube.com/embed/2se9Thz5zyg?ecver=2"	
 		}
 	],
 	"sliderNavProduct": [
@@ -50,7 +59,32 @@
 			"imgSmall": "img/SF255-1.jpg"	
 		},
 		{
-			"imgSmall": "Lid-SF037-1.jpg"	
+			"imgSmall": "img/Lid-SF037-1.jpg"	
+		},
+		{
+			"imgSmall": "img/video.png"	
+		},
+		{
+			"imgSmall": "img/SF255-1_3b.jpg"	
+		},
+		{
+			"imgSmall": "img/SF255-1_2.jpg"	
+		},
+		{
+			"imgSmall": "img/SF255-1.jpg"	
+		},
+		{
+			"imgSmall": "img/Lid-SF037-1.jpg"	
+		},
+		{
+			"imgSmall": "img/video.png"	
 		}
-	]
+	],
+	"title" : "Zen",
+	"subtitle" : "Ref. Code SF255-1",
+	"description": "The ultimate meal replacement shaker. Perfect as a giveaway or as an everyday bottle, this shaker is one of our best quality products available.",
+	"parametr": "Size:",
+	"value": "500ml",
+	"logo": "img/shakers-img.png",
+	"text": "ll items can be customized with you logo and any color on lid and body."
 }
