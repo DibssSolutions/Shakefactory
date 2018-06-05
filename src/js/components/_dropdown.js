@@ -4,7 +4,7 @@ var dropdowns = $('.js-dropdown');
 var btnFilters = $('.js-btn-filters');
 
 
-dropdownTrig.on('click', function() {
+dropdownTrig.on('click', function(event) {
   var parent = $(this).parents('.js-dropdown');
   
   if (!parent.hasClass(OPEN)) {
@@ -13,7 +13,7 @@ dropdownTrig.on('click', function() {
   } else {
     parent.removeClass(OPEN);
   }   
-  event.stopPropagation(); 
+  event.stopPropagation();
 });
   
 
