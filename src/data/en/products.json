@@ -4,24 +4,36 @@
 			"for": "Name",
 			"label": "Full Name",
 			"id": "name",
-			"placeholder": "Jane Doe"
+			"placeholder": "Jane Doe",
+			"type": "text",
+			"name": "name",
+			"required": "required"
 		},
 		{
 			"for": "email",
 			"label": "Email",
 			"id": "email",
-			"placeholder": "jane.doe@example.com"
+			"placeholder": "jane.doe@example.com",
+			"type": "email",
+			"name": "email",
+			"required": "required"
 		},
 		{
 			"for": "website",
 			"label": "Company Website",
 			"id": "website",
-			"placeholder": "example.com"
+			"placeholder": "example.com",
+			"type": "text",
+			"name": "website"
 		}
 	],
-	"buttonForm": "Send inquiry",
+	"textVendorCode": "Request a quotation of ",
+	"VendorCode": "SF255-1",
 	"label": "Message",
 	"placehold": "Tell us more about your project, needs, and timeline.",
+	"button": "Send Inquiry",
+	"success": "Your message has been sent successfully.",
+	"senterror": "Something wrong.",
 	"labelSelect": "Order quantity",
 	"select": [
 		{

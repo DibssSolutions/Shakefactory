@@ -46,32 +46,37 @@
 				<div class="products__size-value">
 					{{ value}}
 				</div>		
-				<div class="products__form-title">Request a quotation of SF255-1</div>	
-					<form action="/" class="form products__form">
-						{% for item in form %}
-						<div class="form__row">
-							<label class="form__lable" for="{{ item.for }}">{{ item.label }}</label>
-							<input class="form__input" id="{{ item.id }}" type="text" name="name" placeholder="{{ item.placeholder }}">
-						</div>
-						{% endfor %}
-						<div class="form__row">
-							<label class="form__lable">{{ labelSelect }}</label>
-							<div class="form__select select">
-								<select class="js-select" style="width:100%" name="state">
-									{% for item in select %}
-										<option value="AL">{{item.value}}</option>
-									{% endfor %}
-								</select>
-							</div>	
-						</div>
-						<div class="form__row">
-							<label class="form__lable" for="message">{{ label }}</label>
-							<textarea class="form__textarea" name="message" id="message" placeholder="{{ placehold }}"></textarea>
-						</div>
-						<div class="form__btn">
-							<button class="btn btn-submit" type="submit">{{ buttonForm }}</button>
-						</div>
-					</form>
+				<div class="products__vendor-code">{{ textVendorCode }}{{ VendorCode }}</div>	
+				<form class="form products__form js-form is-product" action="productname">
+					<div class="form__row">
+						<input type="text" name="vendor" value="{{ VendorCode }}" style="display: none">
+					</div>
+					{% for item in form %}
+					<div class="form__row">
+						<label class="form__lable" for="{{ item.for }}">{{ item.label }}</label>
+						<input class="form__input" id="{{ item.id }}" type="{{ item.type }}" name="{{ item.name }}" placeholder="{{ item.placeholder }}" minlength="2" {{ item.required }}>
+					</div>
+					{% endfor %}
+					<div class="form__row">
+						<label class="form__lable">{{ labelSelect }}</label>
+						<div class="form__select select">
+							<select class="js-select" style="width:100%" name="state" required>
+								{% for item in select %}
+									<option value="{{ item.value }}">{{ item.value }}</option>
+								{% endfor %}
+							</select>
+						</div>	
+					</div>
+					<div class="form__row">
+						<label class="form__lable" for="message">{{ label }}</label>
+						<textarea class="form__textarea" type="text" name="message" id="message" placeholder="{{ placehold }}"></textarea>
+					</div>
+					<div class="form__btn">
+						<button class="btn btn-submit js-btn-submit" type="submit">{{ button }}</button>
+					</div>
+					<div class="success js-success">{{ success }}</div>
+					<div class="success-error js-success-error">{{ senterror }}</div>
+				</form>
 			</div>				
 		</div>
 	</div>

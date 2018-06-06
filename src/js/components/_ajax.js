@@ -2,10 +2,15 @@ $(document).ready(function() {
   $('.js-form').on('submit', function(e) {
     e.preventDefault();
     var formData = $(this).serialize();
-    console.log(formData,'dgd');
+    var urlPhpFile;
+    if ($('.js-form').hasClass('is-contact')) {
+      urlPhpFile = 'send.php';
+    } else if ($('.js-form').hasClass('is-product')) {
+      urlPhpFile = 'products.php';
+    }
     $.ajax({
       type: 'POST',
-      url: 'send.php',
+      url: urlPhpFile,
       data: formData,
       success: function() {
         var sentMessage = $('.js-success');
@@ -23,9 +28,9 @@ $(document).ready(function() {
         if (jqXHR.status === 0) {
           errorSent.text('Not connect.\n Verify Network.');
         } else if (jqXHR.status === 404) {
-          errorSent.text('Requested page not found. [404]');
+          errorSent.text('Requested page not found. 404');
         } else if (jqXHR.status === 500) {
-          errorSent.text('Internal Server Error [500].');
+          errorSent.text('Internal Server Error 500.');
         } else if (exception === 'parsererror') {
           errorSent.text('Requested JSON parse failed.');
         } else if (exception === 'timeout') {

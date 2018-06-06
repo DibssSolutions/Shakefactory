@@ -99,24 +99,28 @@
               <div class="products__description"> The ultimate meal replacement shaker. Perfect as a giveaway or as an everyday bottle, this shaker is one of our best quality products available. </div>
               <div class="products__size"> Size: </div>
               <div class="products__size-value"> 500ml </div>
-              <div class="products__form-title">Request a quotation of SF255-1</div>
-              <form action="/" class="form products__form">
-                <div class="form__row"> <label class="form__lable" for="Name">Full Name</label> <input class="form__input" id="name" type="text" name="name" placeholder="Jane Doe"> </div>
-                <div class="form__row"> <label class="form__lable" for="email">Email</label> <input class="form__input" id="email" type="text" name="name" placeholder="jane.doe@example.com"> </div>
-                <div class="form__row"> <label class="form__lable" for="website">Company Website</label> <input class="form__input" id="website" type="text" name="name" placeholder="example.com"> </div>
+              <div class="products__vendor-code">Request a quotation of SF255-1</div>
+              <form class="form products__form js-form is-product" action="productname">
+                <div class="form__row"> <input type="text" name="vendor" value="SF255-1" style="display: none"> </div>
+                <div class="form__row"> <label class="form__lable" for="Name">Full Name</label> <input class="form__input" id="name" type="text" name="name" placeholder="Jane Doe" minlength="2" required> </div>
+                <div class="form__row"> <label class="form__lable" for="email">Email</label> <input class="form__input" id="email" type="email" name="email" placeholder="jane.doe@example.com" minlength="2" required> </div>
+                <div class="form__row"> <label class="form__lable" for="website">Company Website</label> <input class="form__input" id="website" type="text" name="website" placeholder="example.com" minlength="2"> </div>
                 <div class="form__row"> <label class="form__lable">Order quantity</label>
-                  <div class="form__select select"> <select class="js-select" style="width:100%" name="state">
-									
-										<option value="AL">500 pcs</option>
-									
-										<option value="AL">600 pcs</option>
-									
-										<option value="AL">700 pcs</option>
-									
-								</select> </div>
+                  <div class="form__select select"> <select class="js-select" style="width:100%" name="state" required>
+								
+									<option value="500 pcs">500 pcs</option>
+								
+									<option value="600 pcs">600 pcs</option>
+								
+									<option value="700 pcs">700 pcs</option>
+								
+							</select> </div>
                 </div>
-                <div class="form__row"> <label class="form__lable" for="message">Message</label> <textarea class="form__textarea" name="message" id="message" placeholder="Tell us more about your project, needs, and timeline."></textarea> </div>
-                <div class="form__btn"> <button class="btn btn-submit" type="submit">Send inquiry</button> </div>
+                <div class="form__row"> <label class="form__lable" for="message">Message</label> <textarea class="form__textarea" type="text" name="message" id="message" placeholder="Tell us more about your project, needs, and timeline."></textarea> </div>
+                <div class="form__btn">
+                <button class="btn btn-submit js-btn-submit" type="submit">Send Inquiry</button> </div>
+                <div class="success js-success">Your message has been sent successfully.</div>
+                <div class="success-error js-success-error">Something wrong.</div>
               </form>
             </div>
           </div>
