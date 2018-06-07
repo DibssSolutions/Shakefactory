@@ -1,4 +1,8 @@
 .shakers
+	border-bottom: 1px solid $darken-blue
+	padding-bottom: 20px
+	+sm	
+		padding-bottom: 20px
 	&__top
 		display: flex
 		max-width: 788px
@@ -19,7 +23,7 @@
 			display: block
 	&__in
 		max-width: 901px
-		padding: 0 15px 
+		padding: 0 35px 
 		margin: 0 auto
 	&__content
 		display: flex
@@ -108,48 +112,48 @@
 				.is-open &
 					+arr(10,5, $blue, t)
 	&__inner
-		margin: 0 -40px 
+		margin: 0 -50px 
 
 .grid
 	margin: 0 auto	 
 	&__col
-		padding: 0 30px
-		margin-bottom: 60px
-		height: 304px
-		width: 190px
+		padding: 0 15px
+		margin-bottom: 50px
+		width: 175px
 		+sm
-			margin-bottom: 20px
+			margin-bottom: 35px
+	&__link
+		display: block	
 
 .item
-	text-align: center
 	display: flex
-	flex-wrap: wrap
-	justify-content: center
-	align-items: flex-end
-	height: 100%
+	flex-direction: column
+	justify-content: flex-end
+	align-items: center
+	height: 322px
+	&__img
+		max-width: 105px
+		img
+			margin: auto 0 23px
+			max-width: 100%
+			max-height: 264px
+			display: block
 	&__info
 		width: 100%
-	&__img
-		margin-bottom: 23px
-		max-width: 105px
-		display: flex
-		align-items: flex-end
-		img
-			max-width: 100%
-			display: block
+		text-align: center
 	&__title
 		font-size: 15px
 		line-height: 15px
 		color: $night-blue
 		font-weight: 400
 		letter-spacing: -0.08em
-		margin-bottom: 3px  
+		margin-bottom: 3px
 	&__capacity
 		font-size: 14px
 		line-height: 17px
 		font-weight: 400
 		letter-spacing: -0.01em
-		color: $light-gray  
+		color: $light-gray 
 
 
 	

@@ -6,7 +6,10 @@ sliderProducts.slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
-  asNavFor: '.js-slider-nav'
+  asNavFor: '.js-slider-nav',
+  speed: 300,
+  fade: true,
+  cssEase: 'linear'
 });
 sliderNav.slick({
   slidesToShow: 5,

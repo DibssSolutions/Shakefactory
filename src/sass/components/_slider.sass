@@ -5,7 +5,6 @@
 	+sm
 		margin-bottom: 30px
 	.slick-list
-		margin-right: -1px
 		border-left: 1px solid $darken-blue
 		border-right: 1px solid $darken-blue
 	.slick-track
@@ -16,6 +15,11 @@
 			.slider__slide,
 			.product
 				height: 100%
+	.slick-slide.slick-active
+		box-sizing: border-box
+		border-left: 1px solid $darken-blue
+	.slick-slide.slick-current
+		border-left: none
 	&__prev
 		position: absolute
 		top: 50%
@@ -62,8 +66,7 @@
 .product
 	padding: 26px 0 30px  
 	text-align: center
-	margin-left: -1px
-	border-left: 1px solid $darken-blue
+	// margin-left: -1px
 	+sm
 		padding: 13px 0 15px 
 	&__title

@@ -24,15 +24,17 @@
 			<div class="shakers__grid grid js-grid">
 				{% for product in shakers.products %}
 				<div class="grid__col js-grid-col {{ product.classes }}">
-					<div class="grid__item item" data-category="{{ product.category }}">
-						<div class="item__img">
-							<img src="{{ product.img }}" alt="{{ product.alt }}">
+					<a href="#" class="grid__link">
+						<div class="grid__item item" data-category="{{ product.category }}">
+							<div class="item__img">
+								<img src="{{ product.img }}" alt="{{ product.alt }}">
+							</div>
+							<div class="item__info">
+								<div class="item__title">{{ product.title }}</div>
+								<div class="item__capacity">{{ product.capacity }}</div>
+							</div>		
 						</div>
-						<div class="item__info">
-							<div class="item__title">{{ product.title }}</div>
-							<div class="item__capacity">{{ product.capacity }}</div>
-						</div>		
-					 </div>
+					</a>
 				</div>	
 				{% endfor %}
 			</div>
