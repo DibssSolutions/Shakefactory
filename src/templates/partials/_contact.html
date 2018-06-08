@@ -8,7 +8,7 @@
 			</div>
 			<div class="contact__col ">
 				<div class="contact__form">
-					<form class="form js-form is-contact" action="contact">
+					<form class="form js-form is-contact" action="contact" enctype="multipart/form-data" method="post">
 						{% for item in form %}
 						<div class="form__row">
 							<label class="form__lable" for="{{ item.for }}">{{ item.label }}</label>

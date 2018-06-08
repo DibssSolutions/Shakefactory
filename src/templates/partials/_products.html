@@ -47,7 +47,7 @@
 					{{ value}}
 				</div>		
 				<div class="products__vendor-code">{{ textVendorCode }}{{ VendorCode }}</div>	
-				<form class="form products__form js-form is-product" action="productname">
+				<form class="form products__form js-form is-product" action="productname" enctype="multipart/form-data" method="post">
 					<div class="form__row">
 						<input type="text" name="vendor" value="{{ VendorCode }}" style="display: none">
 					</div>
