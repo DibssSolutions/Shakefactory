@@ -1,0 +1,81 @@
+{
+	"form" : [
+		{
+			"for": "Name",
+			"label": "Full Name",
+			"id": "name",
+			"placeholder": "Jane Doe",
+			"type": "text",
+			"name": "name",
+			"required": "required"
+		},
+		{
+			"for": "email",
+			"label": "Email",
+			"id": "email",
+			"placeholder": "jane.doe@example.com",
+			"type": "email",
+			"name": "email",
+			"required": "required"
+		},
+		{
+			"for": "website",
+			"label": "Company Website",
+			"id": "website",
+			"placeholder": "example.com",
+			"type": "text",
+			"name": "website"
+		}
+	],
+	"textVendorCode": "Request a quotation of ",
+	"VendorCode": "SF003-700",
+	"label": "Message",
+	"placehold": "Tell us more about your project, needs, and timeline.",
+	"button": "Send Inquiry",
+	"success": "Your message has been sent successfully.",
+	"senterror": "Something wrong.",
+	"labelSelect": "Order quantity",
+	"select": [
+		{
+			"value": "500 pcs"
+		},
+		{
+			"value": "600 pcs"
+		},
+		{
+			"value": "700 pcs"
+		}
+	],
+	"sliderProduct": [
+		{
+			"imgBig": "img/SF370.jpg",
+			"img": true	
+		},
+		{
+			"imgBig": "img/SF370_1.jpg",
+			"img": true	
+		},
+		{
+			"video": true,
+			"videoHref": "#"	
+		}
+	],
+	"sliderNavProduct": [
+		{
+			"imgSmall": "img/SF370.jpg"	
+		},
+		{
+			"imgSmall": "img/SF370_1.jpg"	
+		},
+		{
+			"imgSmall": "https://i.ytimg.com/vi/_7nUj0TZ7MQ/sddefault.jpg"	
+		}
+	],
+	"title" : "WELLNESS CHOICE (L)",
+	"subtitle" : "Ref. SF003-700",
+	"description": "Another great choice for wellness markets, our Large model works great for your post-workout supplements. Twist off cap makes it easy to drink from and assures that it will not leak in your bag.",
+	"parametr": "Size:",
+	"value": "700ml",
+	"logo": "img/shakers-img.png",
+	"text": "ll items can be customized with you logo and any color on lid and body."
+}

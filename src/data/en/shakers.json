@@ -1,7 +1,7 @@
 {	
 	"shakers": {
 		"title": "Find a shaker that suits your needs. All shakers can be customized with your logo and any color on lid and body.",
-		"img" : "img/shakers-img.png",
+		"img" : "./img/shakers-img.png",
 		"logo": "logo",
 		"filters": [
 			{
@@ -16,19 +16,19 @@
 					},
 					{
 						"name": "400ml",
-						"attr": ".fourhundred"
+						"attr": ".fourtin"
 					},
 					{
 						"name": "500ml",
-						"attr": ".fivehundred"
+						"attr": ".fivetin"
 					},
 					{
 						"name": "600ml",
-						"attr": ".sixhundred"
+						"attr": ".sixtin"
 					},
 					{
 						"name": "700+ml",
-						"attr": ".sevenhundred"
+						"attr": ".seventin"
 					}
 				]
 			},
@@ -52,11 +52,11 @@
 					},
 					{
 						"name": "Stainless Steel",
-						"attr": ".stainless-steel"
+						"attr": ".steel"
 					},
 					{
 						"name": "Multi-compartment",
-						"attr": ".multi-compartment"
+						"attr": ".multi"
 					}
 				]
 			},
@@ -68,7 +68,7 @@
 					{
 						"class": "is-checked",
 						"name": "5000pcs",
-						"attr": ".five-thousand"
+						"attr": ".two-thousand-five-hundred .five-thousand"
 					},
 					{
 						"name": "2500pcs",
@@ -80,82 +80,298 @@
 					},
 					{
 						"name": "500pcs",
-						"attr": ".five-hundredpcs"
+						"attr": ".five-hundred"
 					}
 				]
 			}
 		],
 		"products": [
 			{	
-				"classes": "sevenhundred electric two-thousand-five-hundred",
-				"category": "Electric",
+				"classes": "seventin two-thousand-five-hundred",
 				"img": "./img/hercules6.png",
-				"title": "Wellness Choice (L)",
-				"alt": "shacker",
-				"capacity": "700ml"
+				"title": "Wellness  Choice  (L)",
+				"capacity": "700ml",
+				"url": "./SF003-700.html"
 			},
 			{	
-				"classes": "sevenhundred multi-compartment five-hundredpcs",
+				"classes": "seventin two-thousand-five-hundred",
 				"img": "./img/SF037-1.jpg",
-				"title": "The Tank",
-				"alt": "shacker",
-				"capacity": "700ml"
+				"title": "The  Tank",
+				"capacity": "700ml",
+				"url": "./SF037-1.html"
 			},
 			{	
-				"classes": "fourhundred multi-compartment five-thousand",
+				"classes": "fourtin two-thousand-five-hundred",
 				"img": "./img/SF107.jpg",
-				"title": "The Zane",
-				"alt": "shacker",
-				"capacity": "400ml"
+				"title": "The  Zane",
+				"capacity": "400ml",
+				"url": "./SF107.html"
 			},
 			{	
-				"classes": "sixhundred tritan five-thousand",
+				"classes": "sixtin two-thousand-five-hundred",
 				"img": "./img/SF234.jpg",
-				"title": "The Dorian",
-				"alt": "shacker",
-				"capacity": "600ml"
+				"title": "The  Dorian",
+				"capacity": "600ml",
+				"url": "./SF234.html"
 			},
 			{	
-				"classes": "sixhundred tritan five-thousand",
+				"classes": "sixtin two-thousand-five-hundred",
 				"img": "./img/SF236.jpg",
 				"title": "Pump",
-				"alt": "shacker",
-				"capacity": "600ml"
+				"capacity": "600ml",
+				"url": "./SF236.html"
 			},
 			{	
-				"classes": "sixhundred stainless-steel fivethousand",
+				"classes": "fivetin five-hundred one-thousand two-thousand-five-hundred",
 				"img": "./img/SF255-1_3.jpg",
-				"title": "Wellness Choice (L)",
-				"alt": "shacker",
-				"capacity": "400ml"
+				"title": "Zen",
+				"capacity": "500ml",
+				"url": "./SF255-1.html"
 			},
 			{	
-				"classes": "fourhundred tritan five-thousand",
+				"classes": "fivetin multi two-thousand-five-hundred",
 				"img": "./img/SF352.jpg",
-				"title": "The Tank",
-				"alt": "shacker",
-				"capacity": "400ml"
+				"title": "Ultrashaker",
+				"capacity": "500ml",
+				"url": "./SF352.html"
 			},
 			{	
-				"classes": "fourhundred tritan one-thousand",
+				"classes": "seventin five-thousand",
 				"img": "./img/SF338.jpg",
-				"title": "The Zane",
-				"alt": "shacker",
-				"capacity": "400ml"
+				"title": "Maximus",
+				"capacity": "1000ml",
+				"url": "./SF338.html"
 			},
 			{	
-				"classes": "fourhundred stainless-steel five-thousand",
+				"classes": "sixtin tritan two-thousand-five-hundred",
 				"img": "./img/SF285.jpg",
-				"title": "The Dorian",
-				"alt": "shacker",
-				"capacity": "400ml"
+				"title": "Cyborg",
+				"capacity": "600ml",
+				"url": "./SF285.html"
 			},
 			{	
-				"classes": "fivehundred tritan five-thousand",
+				"classes": "fourtin electric two-thousand-five-hundred",
 				"img": "./img/SF503.jpg",
-				"title": "Pump",
-				"alt": "shacker",
-				"capacity": "500ml"
+				"title": "Lightning",
+				"capacity": "400ml",
+				"url": "./SF503.html"
+			},
+			{	
+				"classes": "sixtin electric multi two-thousand-five-hundred",
+				"img": "./img/SF504.jpg",
+				"title": "The  Typhoon",
+				"capacity": "600ml",
+				"url": "./SF504.html"
+			},
+			{	
+				"classes": "seventin electric two-thousand-five-hundred",
+				"img": "./img/SF505.jpg",
+				"title": "The  Hurricane",
+				"capacity": "700+ml",
+				"url": "./SF505.html"
+			},
+			{	
+				"classes": "fivetin two-thousand-five-hundred",
+				"img": "./img/SF313.jpg",
+				"title": "Goliath",
+				"capacity": "500ml",
+				"url": "./SF313.html"
+			},
+			{	
+				"classes": "seventin two-thousand-five-hundred",
+				"img": "./img/SF314.jpg",
+				"title": "Hercules",
+				"capacity": "700+ml",
+				"url": "./SF314.html"
+			},
+			{	
+				"classes": "sixtin multi two-thousand-five-hundred",
+				"img": "./img/SF32371.jpg",
+				"title": "Nitroshaker",
+				"capacity": "600ml",
+				"url": "./SF323.html"
+			},
+			{	
+				"classes": "seventin multi two-thousand-five-hundred",
+				"img": "./img/SF330.jpg",
+				"title": "Jack  of  All  Trades",
+				"capacity": "700+ml",
+				"url": "./SF330.html"
+			},
+			{	
+				"classes": "fivetin electric two-thousand-five-hundred",
+				"img": "./img/SF502.jpg",
+				"title": "Thunder",
+				"capacity": "500ml",
+				"url": "./SF502.html"
+			},
+			{	
+				"classes": "seventin steel two-thousand-five-hundred",
+				"img": "./img/SF400.jpg",
+				"title": "The  Pearl",
+				"capacity": "700+ml",
+				"url": "./SF400.html"
+			},
+			{	
+				"classes": "fivetin electric two-thousand-five-hundred",
+				"img": "./img/SF500.jpg",
+				"title": "The  Storm",
+				"capacity": "500ml",
+				"url": "./SF500.html"
+			},
+			{	
+				"classes": "fivetin electric two-thousand-five-hundred",
+				"img": "./img/SF501.jpg",
+				"title": "The  Tornado",
+				"capacity": "500ml",
+				"url": "./SF501.html"
+			},
+			{	
+				"classes": "fourtin two-thousand-five-hundred",
+				"img": "./img/SF107-1.jpg",
+				"title": "The  Platz",
+				"capacity": "400ml",
+				"url": "./SF107-1.html"
+			},
+			{	
+				"classes": "fourtin two-thousand-five-hundred",
+				"img": "./img/SF350.jpg",
+				"title": "Slim",
+				"capacity": "350ml",
+				"url": "./SF350.html"
+			},
+			{	
+				"classes": "seventin two-thousand-five-hundred",
+				"img": "./img/SF271.jpg",
+				"title": "Ra",
+				"capacity": "700ml",
+				"url": "./SF271.html"
+			},
+			{	
+				"classes": "fivetin multi two-thousand-five-hundred",
+				"img": "./img/SF320.jpg",
+				"title": "Turboshaker",
+				"capacity": "500ml",
+				"url": "./SF320.html"
+			},
+			{	
+				"classes": "seventin five-thousand",
+				"img": "./img/SF801.jpg",
+				"title": "Lifting  Jug",
+				"capacity": "2200ml",
+				"url": "./SF801.html"
+			},
+			{	
+				"classes": "sixtin steel two-thousand-five-hundred",
+				"img": "./img/SF401.jpg",
+				"title": "Megatron",
+				"capacity": "600ml",
+				"url": "./SF401.html"
+			},
+			{	
+				"classes": "fortin multi five-hundred one-thousand two-thousand-five-hundred",
+				"img": "./img/titan1.jpg",
+				"title": "Titan",
+				"capacity": "237ml",
+				"url": "./TITAN.html"
+			},
+			{	
+				"classes": "seventin steel two-thousand-five-hundred",
+				"img": "./img/SF402.jpg",
+				"title": "Terminator",
+				"capacity": "760ml",
+				"url": "./SF402.html"
+			},
+			{	
+				"classes": "seventin steel two-thousand-five-hundred",
+				"img": "./img/SF403.jpg",
+				"title": "Bumblebee",
+				"capacity": "760ml",
+				"url": "./SF403.html"
+			},
+			{	
+				"classes": "seventin one-thousand two-thousand-five-hundred",
+				"img": "./img/SF802.jpg",
+				"title": "Workout  Jug",
+				"capacity": "2200ml",
+				"url": "./SF802.html"
+			},
+			{	
+				"classes": "seventin one-thousand two-thousand-five-hundred",
+				"img": "./img/SF803.jpg",
+				"title": "Gym  Jug",
+				"capacity": "1890ml",
+				"url": "./SF803.html"
+			},
+			{	
+				"classes": "seventin one-thousand two-thousand-five-hundred",
+				"img": "./img/SF804.jpg",
+				"title": "Carrying  Jug",
+				"capacity": "2200ml",
+				"url": "./SF804.html"
+			},
+			{	
+				"classes": "seventin one-thousand two-thousand-five-hundred",
+				"img": "./img/SF805.jpg",
+				"title": "Bodybuilding  Jug",
+				"capacity": "2200ml",
+				"url": "./SF805.html"
+			},
+			{	
+				"classes": "seventin one-thousand two-thousand-five-hundred",
+				"img": "./img/SF806.jpg",
+				"title": "Dumbbell  Jug",
+				"capacity": "2200ml",
+				"url": "./SF806.html"
+			},
+			{	
+				"classes": "seventin two-thousand-five-hundred",
+				"img": "./img/SF807.jpg",
+				"title": "Milk  Jug",
+				"capacity": "3780ml",
+				"url": "./SF807.html"
+			},
+			{	
+				"classes": "fourtin tritan one-thousand two-thousand-five-hundred",
+				"img": "./img/SF108.jpg",
+				"title": "Tritan  Zane",
+				"capacity": "400ml",
+				"url": "./SF108.html"
+			},
+			{	
+				"classes": "sixtin one-thousand two-thousand-five-hundred",
+				"img": "./img/SF366.jpg",
+				"title": "Flex  Pump",
+				"capacity": "600ml",
+				"url": "./SF366.html"
+			},
+			{	
+				"classes": "seventin one-thousand two-thousand-five-hundred",
+				"img": "./img/SF370.jpg",
+				"title": "Zoom  Shaker",
+				"capacity": "700ml",
+				"url": "./SF370.html"
+			},
+			{	
+				"classes": "fourtin five-thousand",
+				"img": "./img/SFGB01.jpg",
+				"title": "Anti  Break  Glass  Bottle",
+				"capacity": "370ml",
+				"url": "./SFGB01.html"
+			},
+			{	
+				"classes": "seventin one-thousand two-thousand-five-hundred",
+				"img": "./img/SFGB02.jpg",
+				"title": "Glass  Shaker  Bottle",
+				"capacity": "700ml",
+				"url": "./SFGB02.html"
+			},
+			{	
+				"classes": "fourtin one-thousand two-thousand-five-hundred",
+				"img": "./img/SFGB031.jpg",
+				"title": "Slim  Glass  Bottle",
+				"capacity": "400ml",
+				"url": "./SFGB03.html"
 			}
 		]
 	}

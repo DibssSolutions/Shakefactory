@@ -3,23 +3,23 @@
 	"navigation": [
 		{
 			"title": "Shakers",
-			"href": "#"
+			"href": "./home.html"
 		},
 		{
 			"title": "Accessories",
-			"href": "#"
+			"href": "./shakers.html"
 		},
 		{
 			"title": "FAQ",
-			"href": "#"
+			"href": "./faq.html"
 		},
 		{
 			"title": "About",
-			"href": "#"
+			"href": "./about.html"
 		},
 		{
 			"title": "Contact",
-			"href": "#"
+			"href": "./contact.html"
 		}
 	],
 

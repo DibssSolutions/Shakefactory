@@ -21,10 +21,10 @@
 			{% endfor %}
 		</div>
 		<div class="shakers__inner">
-			<div class="shakers__grid grid js-grid">
+			<div class="shakers__grid grid js-grid"> 
 				{% for product in shakers.products %}
 				<div class="grid__col js-grid-col {{ product.classes }}">
-					<a href="#" class="grid__link">
+					<a href="{{ product.url }}" class="grid__link">
 						<div class="grid__item item" data-category="{{ product.category }}">
 							<div class="item__img">
 								<img src="{{ product.img }}" alt="{{ product.alt }}">

@@ -1,0 +1,88 @@
+{
+	"form" : [
+		{
+			"for": "Name",
+			"label": "Full Name",
+			"id": "name",
+			"placeholder": "Jane Doe",
+			"type": "text",
+			"name": "name",
+			"required": "required"
+		},
+		{
+			"for": "email",
+			"label": "Email",
+			"id": "email",
+			"placeholder": "jane.doe@example.com",
+			"type": "email",
+			"name": "email",
+			"required": "required"
+		},
+		{
+			"for": "website",
+			"label": "Company Website",
+			"id": "website",
+			"placeholder": "example.com",
+			"type": "text",
+			"name": "website"
+		}
+	],
+	"textVendorCode": "Request a quotation of ",
+	"VendorCode": "SF037-1",
+	"label": "Message",
+	"placehold": "Tell us more about your project, needs, and timeline.",
+	"button": "Send Inquiry",
+	"success": "Your message has been sent successfully.",
+	"senterror": "Something wrong.",
+	"labelSelect": "Order quantity",
+	"select": [
+		{
+			"value": "500 pcs"
+		},
+		{
+			"value": "600 pcs"
+		},
+		{
+			"value": "700 pcs"
+		}
+	],
+	"sliderProduct": [
+		{
+			"imgBig": "img/SF037-1.jpg",
+			"img": true	
+		},
+		{
+			"imgBig": "img/SF037-1_2.jpg",
+			"img": true	
+		},
+		{
+			"imgBig": "img/SF037-3.jpg",
+			"img": true	
+		},
+		{
+			"video": true,
+			"videoHref": "https://i.ytimg.com/vi/mhZcMHcaO-4/sddefault.jpg"	
+		}
+	],
+	"sliderNavProduct": [
+		{
+			"imgSmall": "img/SF037-1.jpg"	
+		},
+		{
+			"imgSmall": "img/SF037-1_2.jpg"	
+		},
+		{
+			"imgSmall": "img/SF037-3.jpg"	
+		},
+		{
+			"imgSmall": "https://i.ytimg.com/vi/mhZcMHcaO-4/sddefault.jpg"	
+		}
+	],
+	"title" : "THE TANK",
+	"subtitle" : "Ref. Code SF037-1",
+	"description": "A larger version of our Zen shaker, The Tank is a great option for Hardcore type shakers. Comes with the new and improved lid closure system.",
+	"parametr": "Size:",
+	"value": "700ml",
+	"logo": "img/shakers-img.png",
+	"text": "ll items can be customized with you logo and any color on lid and body."
+}
