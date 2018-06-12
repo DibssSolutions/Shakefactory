@@ -1,12 +1,9 @@
 {
+	"logo" : "href",
 	"sitename": "Shakefactory",
 	"navigation": [
 		{
 			"title": "Shakers",
-			"href": "./home.html"
-		},
-		{
-			"title": "Accessories",
 			"href": "./shakers.html"
 		},
 		{
