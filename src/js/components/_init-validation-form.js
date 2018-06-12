@@ -8,9 +8,9 @@ container.each(function() {
   var button = form.find('.js-btn-submit');
   input.on('blur', function() {
 	  if (form.valid()) {
-	    button.prop('disabled', false);
+      button.prop('disabled', false);
 	  } else {
-	    button.prop('disabled', 'disabled');
+      button.prop('disabled', 'disabled');
 	  }
   });
 

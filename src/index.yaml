@@ -1,7 +1,7 @@
 ProjectTitle: Shakefactory
 
 PageList:
-- file: home.html
+- file: index.html
   ready: 100
 - file: about.html
   ready: 100
