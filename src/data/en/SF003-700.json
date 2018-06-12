@@ -56,8 +56,8 @@
 			"img": true	
 		},
 		{
-			"video": true,
-			"videoHref": "#"	
+			"videoHref": "https://www.youtube.com/embed/_7nUj0TZ7MQ?autohide=1",
+			"video": true
 		}
 	],
 	"sliderNavProduct": [

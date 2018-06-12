@@ -61,7 +61,7 @@
 		},
 		{
 			"video": true,
-			"videoHref": "img/SF037-1-video.png"	
+			"videoHref": "https://www.youtube.com/embed/mhZcMHcaO-4"	
 		}
 	],
 	"sliderNavProduct": [
@@ -75,7 +75,7 @@
 			"imgSmall": "img/SF037-3.jpg"	
 		},
 		{
-			"imgSmall": "https://i.ytimg.com/vi/mhZcMHcaO-4/sddefault.jpg"	
+			"imgSmall": "img/SF037-1-video.png"	
 		}
 	],
 	"title" : "THE TANK",
