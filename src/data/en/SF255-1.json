@@ -66,44 +66,9 @@
 		{
 			"video": true,
 			"videoHref": "https://www.youtube.com/embed/2se9Thz5zyg?ecver=2"	
-		},
-		{
-			"imgBig": "img/SF255-1_3.jpg",
-			"img": true	
-		},
-		{
-			"imgBig": "img/SF255-1_2.jpg",
-			"img": true	
-		},
-		{
-			"imgBig": "img/SF255-1.jpg",
-			"img": true	
-		},
-		{
-			"imgBig": "img/Lid-SF037-1.jpg",
-			"img": true	
-		},
-		{
-			"video": true,
-			"videoHref": "https://www.youtube.com/embed/2se9Thz5zyg?ecver=2"	
 		}
 	],
 	"sliderNavProduct": [
-		{
-			"imgSmall": "img/SF255-1_3.jpg"	
-		},
-		{
-			"imgSmall": "img/SF255-1_2.jpg"	
-		},
-		{
-			"imgSmall": "img/SF255-1.jpg"	
-		},
-		{
-			"imgSmall": "img/Lid-SF037-1.jpg"	
-		},
-		{
-			"imgSmall": "img/video.png"	
-		},
 		{
 			"imgSmall": "img/SF255-1_3.jpg"	
 		},

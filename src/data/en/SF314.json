@@ -28,7 +28,7 @@
 		}
 	],
 	"textVendorCode": "Request a quotation of ",
-	"VendorCode": "SF003-700",
+	"VendorCode": "SF314",
 	"label": "Message",
 	"placehold": "Tell us more about your project, needs, and timeline.",
 	"button": "Send Inquiry",
@@ -48,11 +48,11 @@
 	],
 	"sliderProduct": [
 		{
-			"imgBig": "img/SF370.jpg",
+			"imgBig": "img/SF314.jpg",
 			"img": true	
 		},
 		{
-			"imgBig": "img/SF370_1.jpg",
+			"imgBig": "img/SF314_2.jpg",
 			"img": true	
 		},
 		{
@@ -62,18 +62,18 @@
 	],
 	"sliderNavProduct": [
 		{
-			"imgSmall": "img/SF370.jpg"	
+			"imgSmall": "img/SF314.jpg"	
 		},
 		{
-			"imgSmall": "img/SF370_1.jpg"	
+			"imgSmall": "img/SF314_2.jpg"	
 		},
 		{
-			"imgSmall": "https://i.ytimg.com/vi/_7nUj0TZ7MQ/sddefault.jpg"	
+			"imgSmall": "img/SF314-video.png"	
 		}
 	],
-	"title" : "WELLNESS CHOICE (L)",
-	"subtitle" : "Ref. SF003-700",
-	"description": "Another great choice for wellness markets, our Large model works great for your post-workout supplements. Twist off cap makes it easy to drink from and assures that it will not leak in your bag.",
+	"title" : "HERCULES",
+	"subtitle" : "Ref. Code SF314",
+	"description": "The name says it all, our signature Hardcore shaker! 700ml capacity, perfect for multiple scoops of protein. Turbine strainer helps break down the toughest of powders.",
 	"parametr": "Size:",
 	"value": "700ml",
 	"logo": "img/shakers-img.png",

@@ -28,7 +28,7 @@
 		}
 	],
 	"textVendorCode": "Request a quotation of ",
-	"VendorCode": "SF255-1",
+	"VendorCode": "SF320",
 	"label": "Message",
 	"placehold": "Tell us more about your project, needs, and timeline.",
 	"button": "Send Inquiry",
@@ -48,81 +48,25 @@
 	],
 	"sliderProduct": [
 		{
-			"imgBig": "img/SF255-1_3.jpg",
+			"imgBig": "img/SF320.jpg",
 			"img": true	
 		},
 		{
-			"imgBig": "img/SF255-1_2.jpg",
+			"imgBig": "img/SF320-2.jpg",
 			"img": true	
-		},
-		{
-			"imgBig": "img/SF255-1.jpg",
-			"img": true	
-		},
-		{
-			"imgBig": "img/Lid-SF037-1.jpg",
-			"img": true	
-		},
-		{
-			"video": true,
-			"videoHref": "https://www.youtube.com/embed/2se9Thz5zyg?ecver=2"	
-		},
-		{
-			"imgBig": "img/SF255-1_3.jpg",
-			"img": true	
-		},
-		{
-			"imgBig": "img/SF255-1_2.jpg",
-			"img": true	
-		},
-		{
-			"imgBig": "img/SF255-1.jpg",
-			"img": true	
-		},
-		{
-			"imgBig": "img/Lid-SF037-1.jpg",
-			"img": true	
-		},
-		{
-			"video": true,
-			"videoHref": "https://www.youtube.com/embed/2se9Thz5zyg?ecver=2"	
 		}
 	],
 	"sliderNavProduct": [
 		{
-			"imgSmall": "img/SF255-1_3.jpg"	
+			"imgSmall": "img/SF320.jpg"	
 		},
 		{
-			"imgSmall": "img/SF255-1_2.jpg"	
-		},
-		{
-			"imgSmall": "img/SF255-1.jpg"	
-		},
-		{
-			"imgSmall": "img/Lid-SF037-1.jpg"	
-		},
-		{
-			"imgSmall": "img/video.png"	
-		},
-		{
-			"imgSmall": "img/SF255-1_3.jpg"	
-		},
-		{
-			"imgSmall": "img/SF255-1_2.jpg"	
-		},
-		{
-			"imgSmall": "img/SF255-1.jpg"	
-		},
-		{
-			"imgSmall": "img/Lid-SF037-1.jpg"	
-		},
-		{
-			"imgSmall": "img/video.png"	
+			"imgSmall": "img/SF320-2.jpg"	
 		}
 	],
-	"title" : "Zen",
-	"subtitle" : "Ref. Code SF255-1",
-	"description": "The ultimate meal replacement shaker. Perfect as a giveaway or as an everyday bottle, this shaker is one of our best quality products available.",
+	"title" : "TURBOSHAKER",
+	"subtitle" : "Ref. Code SF320",
+	"description": "The Turboshaker is the smaller version of our Nitroshaker model. With a slightly more compact design, it is perfect to carry with you wherever you go!",
 	"parametr": "Size:",
 	"value": "500ml",
 	"logo": "img/shakers-img.png",

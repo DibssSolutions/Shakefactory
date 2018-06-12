@@ -28,7 +28,7 @@
 		}
 	],
 	"textVendorCode": "Request a quotation of ",
-	"VendorCode": "SF255-1",
+	"VendorCode": "SF503",
 	"label": "Message",
 	"placehold": "Tell us more about your project, needs, and timeline.",
 	"button": "Send Inquiry",
@@ -48,83 +48,27 @@
 	],
 	"sliderProduct": [
 		{
-			"imgBig": "img/SF255-1_3.jpg",
+			"imgBig": "img/SF503.jpg",
 			"img": true	
 		},
 		{
-			"imgBig": "img/SF255-1_2.jpg",
+			"imgBig": "img/SF503_1.jpg",
 			"img": true	
-		},
-		{
-			"imgBig": "img/SF255-1.jpg",
-			"img": true	
-		},
-		{
-			"imgBig": "img/Lid-SF037-1.jpg",
-			"img": true	
-		},
-		{
-			"video": true,
-			"videoHref": "https://www.youtube.com/embed/2se9Thz5zyg?ecver=2"	
-		},
-		{
-			"imgBig": "img/SF255-1_3.jpg",
-			"img": true	
-		},
-		{
-			"imgBig": "img/SF255-1_2.jpg",
-			"img": true	
-		},
-		{
-			"imgBig": "img/SF255-1.jpg",
-			"img": true	
-		},
-		{
-			"imgBig": "img/Lid-SF037-1.jpg",
-			"img": true	
-		},
-		{
-			"video": true,
-			"videoHref": "https://www.youtube.com/embed/2se9Thz5zyg?ecver=2"	
 		}
 	],
 	"sliderNavProduct": [
 		{
-			"imgSmall": "img/SF255-1_3.jpg"	
+			"imgSmall": "img/SF503.jpg"	
 		},
 		{
-			"imgSmall": "img/SF255-1_2.jpg"	
-		},
-		{
-			"imgSmall": "img/SF255-1.jpg"	
-		},
-		{
-			"imgSmall": "img/Lid-SF037-1.jpg"	
-		},
-		{
-			"imgSmall": "img/video.png"	
-		},
-		{
-			"imgSmall": "img/SF255-1_3.jpg"	
-		},
-		{
-			"imgSmall": "img/SF255-1_2.jpg"	
-		},
-		{
-			"imgSmall": "img/SF255-1.jpg"	
-		},
-		{
-			"imgSmall": "img/Lid-SF037-1.jpg"	
-		},
-		{
-			"imgSmall": "img/video.png"	
+			"imgSmall": "img/SF503_1.jpg"	
 		}
 	],
-	"title" : "Zen",
-	"subtitle" : "Ref. Code SF255-1",
-	"description": "The ultimate meal replacement shaker. Perfect as a giveaway or as an everyday bottle, this shaker is one of our best quality products available.",
+	"title" : "LIGHTNING",
+	"subtitle" : "Ref. Code SF503",
+	"description": "Get your Lightning quick pre-workout shake with this Electric model! Unique in its small size, perfect for wellness markets as well.",
 	"parametr": "Size:",
-	"value": "500ml",
+	"value": "350ml",
 	"logo": "img/shakers-img.png",
 	"text": "ll items can be customized with you logo and any color on lid and body."
 }

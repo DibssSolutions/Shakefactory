@@ -10,17 +10,7 @@ import { SCROLL_TO } from '../_utils';
   const $body = $('body');
   const header = '.js-header';
 
-  //SCROLL TO
-  $links.click(function(e) {
-    e.preventDefault();
-
-    const target = $(this).attr('href');
-    const position = $sections
-      .filter(`[data-section="${target}"]`)
-      .offset().top;
-
-    SCROLL_TO(position);
-  });
+  
 
   $btn.click(e => {
     e.preventDefault();
