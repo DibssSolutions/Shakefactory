@@ -1,0 +1,71 @@
+{
+	"form" : [
+		{
+			"for": "Name",
+			"label": "Full Name",
+			"id": "name",
+			"placeholder": "Jane Doe",
+			"type": "text",
+			"name": "name",
+			"required": "required"
+		},
+		{
+			"for": "email",
+			"label": "Email",
+			"id": "email",
+			"placeholder": "jane.doe@example.com",
+			"type": "email",
+			"name": "email",
+			"required": "required"
+		},
+		{
+			"for": "website",
+			"label": "Company Website",
+			"id": "website",
+			"placeholder": "example.com",
+			"type": "text",
+			"name": "website"
+		}
+	],
+	"textVendorCode": "Request a quotation of ",
+	"VendorCode": "SFPB01",
+	"label": "Message",
+	"placehold": "Tell us more about your project, needs, and timeline.",
+	"button": "Send Inquiry",
+	"success": "Your message has been sent successfully.",
+	"senterror": "Something wrong.",
+	"labelSelect": "Order quantity",
+	"select": [
+		{
+			"value": "500 pcs"
+		},
+		{
+			"value": "1000 pcs"
+		},
+		{
+			"value": "2500 pcs"
+		},
+		{
+			"value": "5000 pcs"
+		},
+		{
+			"value": "10000 pcs"
+		}
+	],
+	"sliderProduct": [
+		{
+			"imgBig": "img/SFPB01.jpg",
+			"img": true	
+		}
+	],
+	"sliderNavProduct": [
+		{
+			"imgSmall": "img/SFPB01.jpg"	
+		}
+	],
+	"title" : "NUTRITION BOX",
+	"subtitle" : "Ref. Code SFPB01",
+	"description": "With its compact design and 7 sections, you can put all of your vitamins and supplements for the week and never have to take it out of your bag!",
+	"logo": "img/shakers-img.png",
+	"text": "ll items can be customized with you logo and any color on lid and body."
+}

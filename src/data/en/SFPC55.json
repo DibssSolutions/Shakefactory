@@ -1,0 +1,78 @@
+{
+	"form" : [
+		{
+			"for": "Name",
+			"label": "Full Name",
+			"id": "name",
+			"placeholder": "Jane Doe",
+			"type": "text",
+			"name": "name",
+			"required": "required"
+		},
+		{
+			"for": "email",
+			"label": "Email",
+			"id": "email",
+			"placeholder": "jane.doe@example.com",
+			"type": "email",
+			"name": "email",
+			"required": "required"
+		},
+		{
+			"for": "website",
+			"label": "Company Website",
+			"id": "website",
+			"placeholder": "example.com",
+			"type": "text",
+			"name": "website"
+		}
+	],
+	"textVendorCode": "Request a quotation of ",
+	"VendorCode": "SFPC55",
+	"label": "Message",
+	"placehold": "Tell us more about your project, needs, and timeline.",
+	"button": "Send Inquiry",
+	"success": "Your message has been sent successfully.",
+	"senterror": "Something wrong.",
+	"labelSelect": "Order quantity",
+	"select": [
+		{
+			"value": "500 pcs"
+		},
+		{
+			"value": "1000 pcs"
+		},
+		{
+			"value": "2500 pcs"
+		},
+		{
+			"value": "5000 pcs"
+		},
+		{
+			"value": "10000 pcs"
+		}
+	],
+	"sliderProduct": [
+		{
+			"imgBig": "img/SFPC55.jpg",
+			"img": true	
+		},
+		{
+			"imgBig": "img/SFPC55_1.jpg",
+			"img": true	
+		}
+	],
+	"sliderNavProduct": [
+		{
+			"imgSmall": "img/SFPC55.jpg"	
+		},
+		{
+			"imgSmall": "img/SFPC55_1.jpg"	
+		}
+	],
+	"title" : "SUPPLEMENT STORER",
+	"subtitle" : "Ref. Code SFPC55",
+	"description": "With 4 separate compartments, each allowing you to store a solid 125ml worth of supplements, the supplement storer is a great option if you are frequently traveling.",
+	"logo": "img/shakers-img.png",
+	"text": "ll items can be customized with you logo and any color on lid and body."
+}

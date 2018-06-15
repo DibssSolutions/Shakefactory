@@ -1,0 +1,78 @@
+{
+	"form" : [
+		{
+			"for": "Name",
+			"label": "Full Name",
+			"id": "name",
+			"placeholder": "Jane Doe",
+			"type": "text",
+			"name": "name",
+			"required": "required"
+		},
+		{
+			"for": "email",
+			"label": "Email",
+			"id": "email",
+			"placeholder": "jane.doe@example.com",
+			"type": "email",
+			"name": "email",
+			"required": "required"
+		},
+		{
+			"for": "website",
+			"label": "Company Website",
+			"id": "website",
+			"placeholder": "example.com",
+			"type": "text",
+			"name": "website"
+		}
+	],
+	"textVendorCode": "Request a quotation of ",
+	"VendorCode": "SFFB03",
+	"label": "Message",
+	"placehold": "Tell us more about your project, needs, and timeline.",
+	"button": "Send Inquiry",
+	"success": "Your message has been sent successfully.",
+	"senterror": "Something wrong.",
+	"labelSelect": "Order quantity",
+	"select": [
+		{
+			"value": "500 pcs"
+		},
+		{
+			"value": "1000 pcs"
+		},
+		{
+			"value": "2500 pcs"
+		},
+		{
+			"value": "5000 pcs"
+		},
+		{
+			"value": "10000 pcs"
+		}
+	],
+	"sliderProduct": [
+		{
+			"imgBig": "img/SFFB03_1.jpg",
+			"img": true	
+		},
+		{
+			"imgBig": "img/SFFB03_2.jpg",
+			"img": true	
+		}
+	],
+	"sliderNavProduct": [
+		{
+			"imgSmall": "img/SFFB03_1.jpg"	
+		},
+		{
+			"imgSmall": "img/SFFB03_2.jpg"	
+		}
+	],
+	"title" : "FUNNEL CLASSIC",
+	"subtitle" : "Ref. Code SFFB03",
+	"description": "We understand that you can’t always take your shaker bottle with you. Turn any bottle or container into a shaker with this classic funnel.",
+	"logo": "img/shakers-img.png",
+	"text": "ll items can be customized with you logo and any color on lid and body."
+}

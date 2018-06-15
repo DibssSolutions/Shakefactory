@@ -1,0 +1,94 @@
+{	
+	"shakers": {
+		"title": "All shakers can be customized with your logo and any color on lid and body.",
+		"img" : "./img/shakers-img.png",
+		"logo": "logo",
+		"products": [
+			{
+				"img": "./img/SFPB03.jpg",
+				"title": "NUTRITION VIAL",
+				"capacity": "PROTEIN / PILL BOX",
+				"url": "./SFPB03.html"
+			},
+			{
+				"img": "./img/SFPB01.png",
+				"title": "NUTRITION BOX",
+				"capacity": "PILL BOX",
+				"url": "./SFPB01.html"
+			},
+			{
+				"img": "./img/SFPB02.jpg",
+				"title": "DAILY PLANNER",
+				"capacity": "PILL BOX",
+				"url": "./SFPB02.html"
+			},
+			{
+				"img": "./img/SFFB01.jpg",
+				"title": "FUNNEL PRO",
+				"capacity": "FUNNEL WITH PILL BOX",
+				"url": "./SFFB01.html"
+			},
+			{
+				"img": "./img/SFFB02.jpg",
+				"title": "FUNNEL TO GO",
+				"capacity": "POWDER FUNNEL",
+				"url": "./SFFB02.html"
+			},
+			{
+				"img": "./img/SFFC01.jpg",
+				"title": "PERSONAL NUTRITIONIST",
+				"capacity": "FOOD CONTAINERS",
+				"url": "./SFFC01.html"
+			},
+			{
+				"img": "./img/SFPB04.jpg",
+				"title": "VITAMINS TO GO",
+				"capacity": "PILL BOX",
+				"url": "./SFPB04.html"
+			},
+			{
+				"img": "./img/SFPC050-2.jpg",
+				"title": "SUPPLEMENTS TO GO",
+				"capacity": "CONTAINER",
+				"url": "./SFPC50.html"
+			},
+			{
+				"img": "./img/SFPC53.jpg",
+				"title": "POWDER COMPANION",
+				"capacity": "CONTAINER",
+				"url": "./SFPC53.html"
+			},
+			{
+				"img": "./img/SFPC54.jpg",
+				"title": "DISPENSER PRO",
+				"capacity": "CONTAINER",
+				"url": "./SFPC54.html"
+			},
+			{
+				"img": "./img/SFPC55.jpg",
+				"title": "SUPPLEMENT STORER",
+				"capacity": "CONTAINER",
+				"url": "./SFPC55.html"
+			},
+			{
+				"img": "./img/SFPB05.jpg",
+				"title": "SUPPLEMENT PRO",
+				"capacity": "PROTEIN / PILL BOX",
+				"url": "./SFPB05.html"
+			},
+			{
+				"img": "./img/SFFB03_1.jpg",
+				"title": "FUNNEL CLASSIC",
+				"capacity": "FUNNEL",
+				"url": "./SFFB03.html"
+			},
+			{
+				"img": "./img/SFPB06.jpg",
+				"title": "TRAVEL BOX",
+				"capacity": "PILL BOX",
+				"url": "./SFPB06.html"
+			}
+		]
+	}
+	
+}

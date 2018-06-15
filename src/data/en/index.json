@@ -3,10 +3,12 @@
 		"title": "Custom & Private Label Shaker Bottles",
 		"description": "The World's Largest Selection of Private Label Shaker Bottles, Pill organizers, and other Promotional Fitness Items. Customize with your company logo and colors.",
 		"btn": "view all shakers",
-		"href": "#",
-		"link": "//www.youtube.com/embed/Ef3oGqkCYl4",
+		"href": "./shakers.html",
+		"link": "https://www.youtube.com/embed/Ef3oGqkCYl4?autoplay=1&autohide=1",
 		"text": "Whatch how it works",
-		"info": "Over 3,000,000 shakers shipped to date."
+		"info": "Over 3,000,000 shakers shipped to date.",
+		"img": "./img/hero-image.svg",
+		"imgInfo": "hero-img"
 		},
 	"brend": [
 		{
@@ -87,48 +89,53 @@
 		"products": [
 			{
 				"title": "Hercules",
-				"product": "./img/hercules1.png",
-				"url": "#"
+				"product": "./img/SF314.jpg",
+				"url": "./SF314.html"
 			},
 			{
 				"title": "The Pearl",
-				"product": "./img/hercules3.png",
-				"url": "#"
+				"product": "./img/SF400.jpg",
+				"url": "./SF400.html"
 			},
 			{
-				"title": "Wellness Choice (l)",
-				"product": "./img/hercules6.png",
-				"url": "#"
+				"title": "Wellness Choice (L)",
+				"product": "./img/SF003-700.jpg",
+				"url": "./SF003-700.html"
 			},
 			{
 				"title": "The Platz",
-				"product": "./img/hercules8.png",
-				"url": "#"
+				"product": "./img/SF107-1.jpg",
+				"url": "./SF107-1.html"
 			},
 			{
 				"title": "Nitroshakern",
 				"product": "./img/SF32371.jpg",
-				"url": "#"
+				"url": "./SF323.html"
 			},
 			{
 				"title": "The Tank",
 				"product": "./img/SF037-1.jpg",
-				"url": "#"
+				"url": "./SF037-1.html"
 			},
 			{
 				"title": "Zen",
 				"product": "./img/SF255-1_3.jpg",
-				"url": "#"
+				"url": "./SF255-1.html"
 			},
 			{
 				"title": "Cyborg",
 				"product": "./img/SF285.jpg",
-				"url": "#"
+				"url": "./SF285.html"
 			},
 			{
 				"title": "Slim",
 				"product": "./img/SF350.jpg",
-				"url": "#"
+				"url": "./SF350.html"
+			},
+			{
+				"title": "Slim",
+				"product": "./img/SF802.jpg",
+				"url": "./SF802.html"
 			}
 		] 
 	}

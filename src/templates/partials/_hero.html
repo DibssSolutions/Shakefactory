@@ -14,7 +14,7 @@
 				</div>
 			</div>
 			<div class="hero__image">
-				<img src="img/hero-image.svg" alt="hero-image">
+				<img src="{{ hero.img }}" alt="{{ hero.imgInfo }}">
 			</div>
 		</div>
 		<div class="hero__brends">
@@ -23,7 +23,7 @@
 				<ul class="brend__list">
 					{% for item in brend %}
 					<li class="brend__item">
-						<a class="brend__link" href="{{ item.url }}">{{ mixins.icon( item.icon ) }}</a>
+						<div class="brend__link" href="{{ item.url }}">{{ mixins.icon( item.icon ) }}</div>
 					</li>
 					{% endfor %}
 				</ul>

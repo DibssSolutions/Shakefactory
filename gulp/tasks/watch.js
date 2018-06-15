@@ -7,7 +7,7 @@ gulp.task('watch',
     'nunjucks:watch',
     'sprite:svg:watch',
     'sprite:png:watch',
-    'list-pages:watch',
+    // 'list-pages:watch',
     'webpack:watch',
     'sass:watch'
 ]);

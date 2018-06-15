@@ -1,10 +1,16 @@
 {
-	"logo" : "href",
+	"logoHref": "./index.html",
+	"logoImg": "img/logo.svg",
 	"sitename": "Shakefactory",
+	"altLogo": "Shakefactory",
 	"navigation": [
 		{
 			"title": "Shakers",
 			"href": "./shakers.html"
+		},
+		{
+			"title": "Accessories",
+			"href": "./accessories.html"
 		},
 		{
 			"title": "FAQ",

@@ -40,10 +40,16 @@
 			"value": "500 pcs"
 		},
 		{
-			"value": "600 pcs"
+			"value": "1000 pcs"
 		},
 		{
-			"value": "700 pcs"
+			"value": "2500 pcs"
+		},
+		{
+			"value": "5000 pcs"
+		},
+		{
+			"value": "10000 pcs"
 		}
 	],
 	"sliderProduct": [

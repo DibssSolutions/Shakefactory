@@ -1,0 +1,78 @@
+{
+	"form" : [
+		{
+			"for": "Name",
+			"label": "Full Name",
+			"id": "name",
+			"placeholder": "Jane Doe",
+			"type": "text",
+			"name": "name",
+			"required": "required"
+		},
+		{
+			"for": "email",
+			"label": "Email",
+			"id": "email",
+			"placeholder": "jane.doe@example.com",
+			"type": "email",
+			"name": "email",
+			"required": "required"
+		},
+		{
+			"for": "website",
+			"label": "Company Website",
+			"id": "website",
+			"placeholder": "example.com",
+			"type": "text",
+			"name": "website"
+		}
+	],
+	"textVendorCode": "Request a quotation of ",
+	"VendorCode": "SFPB03",
+	"label": "Message",
+	"placehold": "Tell us more about your project, needs, and timeline.",
+	"button": "Send Inquiry",
+	"success": "Your message has been sent successfully.",
+	"senterror": "Something wrong.",
+	"labelSelect": "Order quantity",
+	"select": [
+		{
+			"value": "500 pcs"
+		},
+		{
+			"value": "1000 pcs"
+		},
+		{
+			"value": "2500 pcs"
+		},
+		{
+			"value": "5000 pcs"
+		},
+		{
+			"value": "1000 pcs"
+		}
+	],
+	"sliderProduct": [
+		{
+			"imgBig": "img/SFPB03.jpg",
+			"img": true	
+		},
+		{
+			"imgBig": "img/SFPB03_2.jpg",
+			"img": true	
+		}
+	],
+	"sliderNavProduct": [
+		{
+			"imgSmall": "img/SFPB03.jpg"	
+		},
+		{
+			"imgSmall": "img/SFPB03_2.jpg"	
+		}
+	],
+	"title" : "NUTRITION VIAL",
+	"subtitle" : "Ref. Code SFPB03",
+	"description": "This is the protein/pillbox included in our Nitroshaker model. Ideal if you need to take both your powders and vitamins on the go.",
+	"logo": "img/shakers-img.png",
+	"text": "ll items can be customized with you logo and any color on lid and body."
+}

@@ -1,8 +1,4 @@
 .shakers
-	border-bottom: 1px solid $darken-blue
-	padding-bottom: 20px
-	+sm	
-		padding-bottom: 20px
 	&__top
 		display: flex
 		max-width: 788px
@@ -20,11 +16,12 @@
 			order: -1
 		img
 			width: 100%
-			display: block
 	&__in
 		max-width: 901px
 		padding: 0 35px 
 		margin: 0 auto
+		+sm
+			padding: 0 15px
 	&__content
 		display: flex
 		justify-content: space-between
