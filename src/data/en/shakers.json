@@ -143,20 +143,6 @@
 				"url": "./SF338.html"
 			},
 			{	
-				"classes": "sixtin tritan two-thousand-five-hundred",
-				"img": "./img/SF285.jpg",
-				"title": "Cyborg",
-				"capacity": "600ml",
-				"url": "./SF285.html"
-			},
-			{	
-				"classes": "fourtin electric two-thousand-five-hundred",
-				"img": "./img/SF503.jpg",
-				"title": "Lightning",
-				"capacity": "400ml",
-				"url": "./SF503.html"
-			},
-			{	
 				"classes": "sixtin electric multi two-thousand-five-hundred",
 				"img": "./img/SF504.jpg",
 				"title": "The  Typhoon",
@@ -197,13 +183,6 @@
 				"title": "Jack  of  All  Trades",
 				"capacity": "700+ml",
 				"url": "./SF330.html"
-			},
-			{	
-				"classes": "fivetin electric two-thousand-five-hundred",
-				"img": "./img/SF502.jpg",
-				"title": "Thunder",
-				"capacity": "500ml",
-				"url": "./SF502.html"
 			},
 			{	
 				"classes": "seventin steel two-thousand-five-hundred",
@@ -267,13 +246,6 @@
 				"title": "Megatron",
 				"capacity": "600ml",
 				"url": "./SF401.html"
-			},
-			{	
-				"classes": "fortin multi five-hundred one-thousand two-thousand-five-hundred",
-				"img": "./img/titan1.jpg",
-				"title": "Titan",
-				"capacity": "237ml",
-				"url": "./TITAN.html"
 			},
 			{	
 				"classes": "seventin steel two-thousand-five-hundred",
@@ -372,6 +344,62 @@
 				"title": "Slim  Glass  Bottle",
 				"capacity": "400ml",
 				"url": "./SFGB03.html"
+			},
+			{	
+				"classes": "seventin two-thousand-five-hundred",
+				"img": "./img/SF391-1.png",
+				"title": "Deadlifter",
+				"capacity": "700ml",
+				"url": "./SF391-1.html"
+			},
+			{	
+				"classes": "seventin two-thousand-five-hundred",
+				"img": "./img/SF391.png",
+				"title": "Deadlifter",
+				"capacity": "700ml",
+				"url": "./SF391.html"
+			},
+			{	
+				"classes": "seventin two-thousand-five-hundred",
+				"img": "./img/SF390-1.png",
+				"title": "Weightlifter",
+				"capacity": "700ml",
+				"url": "./SF390-1.html"
+			},
+			{	
+				"classes": "seventin two-thousand-five-hundred",
+				"img": "./img/SF390.png",
+				"title": "Weightlifter",
+				"capacity": "700ml",
+				"url": "./SF390.html"
+			},
+			{	
+				"classes": "seventin two-thousand-five-hundred",
+				"img": "./img/SF388-1.png",
+				"title": "Powerlifter",
+				"capacity": "700ml",
+				"url": "./SF388-1.html"
+			},
+			{	
+				"classes": "seventin two-thousand-five-hundred",
+				"img": "./img/SF388.png",
+				"title": "Powerlifter",
+				"capacity": "700ml",
+				"url": "./SF388.html"
+			},
+			{	
+				"classes": "seventin two-thousand-five-hundred",
+				"img": "./img/SF386-1.png",
+				"title": "Lifter",
+				"capacity": "700ml",
+				"url": "./SF386-1.html"
+			},
+			{	
+				"classes": "seventin two-thousand-five-hundred",
+				"img": "./img/SF386.png",
+				"title": "Lifter",
+				"capacity": "700ml",
+				"url": "./SF386.html"
 			}
 		]
 	}

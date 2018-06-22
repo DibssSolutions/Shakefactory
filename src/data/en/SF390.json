@@ -1,0 +1,80 @@
+{
+	"form" : [
+		{
+			"for": "Name",
+			"label": "Full Name",
+			"id": "name",
+			"placeholder": "Jane Doe",
+			"type": "text",
+			"name": "name",
+			"required": "required"
+		},
+		{
+			"for": "email",
+			"label": "Email",
+			"id": "email",
+			"placeholder": "jane.doe@example.com",
+			"type": "email",
+			"name": "email",
+			"required": "required"
+		},
+		{
+			"for": "website",
+			"label": "Company Website",
+			"id": "website",
+			"placeholder": "example.com",
+			"type": "text",
+			"name": "website"
+		}
+	],
+	"textVendorCode": "Request a quotation of ",
+	"VendorCode": "SF390",
+	"label": "Message",
+	"placehold": "Tell us more about your project, needs, and timeline.",
+	"button": "Send Inquiry",
+	"success": "Your message has been sent successfully.",
+	"senterror": "Something wrong.",
+	"labelSelect": "Order quantity",
+	"select": [
+		{
+			"value": "500 pcs"
+		},
+		{
+			"value": "1000 pcs"
+		},
+		{
+			"value": "2500 pcs"
+		},
+		{
+			"value": "5000 pcs"
+		},
+		{
+			"value": "10000 pcs"
+		}
+	],
+	"sliderProduct": [
+		{
+			"imgBig": "img/SF370.png",
+			"img": true	
+		},
+		{
+			"imgBig": "img/SF370_2.png",
+			"img": true	
+		}
+	],
+	"sliderNavProduct": [
+		{
+			"imgSmall": "img/SF370.png"	
+		},
+		{
+			"imgSmall": "img/SF370_2.png"	
+		}
+	],
+	"title" : "Weightlifter",
+	"subtitle" : "Ref. Code SF390",
+	"description": "Content",
+	"parametr": "Size:",
+	"value": "700ml",
+	"logo": "img/shakers-img.png",
+	"text": "All items can be customized with you logo and any color on lid and body."
+}

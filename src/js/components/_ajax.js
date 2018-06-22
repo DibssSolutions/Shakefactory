@@ -14,16 +14,16 @@ $(document).ready(function() {
       data: formData,
       success: function() {
         var container = $('.js-form');
-          container.each(function() {
+        container.each(function() {
           var form = $(this);
           var button = form.find('.js-btn-submit');
-              button.attr('disabled', 'disabled');
-        
-        var sentMessage = $('.js-success');
+          button.attr('disabled', 'disabled');
+	        var sentMessage = $('.js-success');
 
-          container.get(0).reset();
-          sentMessage.fadeIn(200);
-          sentMessage.fadeOut(5000);
+	          container.get(0).reset();
+	          sentMessage.fadeIn(200);
+	          sentMessage.fadeOut(5000);
+        });
       },
       error: function(jqXHR, ajaxSettings, thrownError) {
         var errorSent = $('.js-success-error');

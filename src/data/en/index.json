@@ -88,29 +88,9 @@
 		"icon": "arrow",
 		"products": [
 			{
-				"title": "Hercules",
-				"product": "./img/SF314.jpg",
-				"url": "./SF314.html"
-			},
-			{
-				"title": "The Pearl",
-				"product": "./img/SF400.jpg",
-				"url": "./SF400.html"
-			},
-			{
-				"title": "Wellness Choice (L)",
-				"product": "./img/SF003-700.jpg",
-				"url": "./SF003-700.html"
-			},
-			{
-				"title": "The Platz",
-				"product": "./img/SF107-1.jpg",
-				"url": "./SF107-1.html"
-			},
-			{
-				"title": "Nitroshakern",
-				"product": "./img/SF32371.jpg",
-				"url": "./SF323.html"
+				"title": "Zen",
+				"product": "./img/SF255-1_3.jpg",
+				"url": "./SF255-1.html"
 			},
 			{
 				"title": "The Tank",
@@ -118,24 +98,44 @@
 				"url": "./SF037-1.html"
 			},
 			{
-				"title": "Zen",
-				"product": "./img/SF255-1_3.jpg",
-				"url": "./SF255-1.html"
+				"title": "Hercules",
+				"product": "./img/SF314.jpg",
+				"url": "./SF314.html"
 			},
 			{
-				"title": "Cyborg",
-				"product": "./img/SF285.jpg",
-				"url": "./SF285.html"
+				"title": "Goliath",
+				"product": "./img/SF313.jpg",
+				"url": "./SF313.html"
 			},
 			{
-				"title": "Slim",
-				"product": "./img/SF350.jpg",
-				"url": "./SF350.html"
+				"title": "Nitroshakern",
+				"product": "./img/SF32371.jpg",
+				"url": "./SF323.html"
 			},
 			{
-				"title": "Slim",
-				"product": "./img/SF802.jpg",
-				"url": "./SF802.html"
+				"title": "Ultrashaker",
+				"product": "./img/SF352.jpg",
+				"url": "./SF352.html"
+			},
+			{
+				"title": "Dorian",
+				"product": "./img/SF234.jpg",
+				"url": "./SF234.html"
+			},
+			{
+				"title": "The Zane",
+				"product": "./img/SF107.jpg",
+				"url": "./SF107.html"
+			},
+			{
+				"title": "Powerlifter",
+				"product": "./img/SF388-1.png",
+				"url": "./SF388-1.html"
+			},
+			{
+				"title": "Deadlifter",
+				"product": "./img/SF391-1.png",
+				"url": "./SF391-1.html"
 			}
 		] 
 	}
