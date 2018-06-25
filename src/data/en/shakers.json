@@ -361,14 +361,14 @@
 			},
 			{	
 				"classes": "seventin two-thousand-five-hundred",
-				"img": "./img/SF390-1.png",
+				"img": "./img/SF390-1-4.png",
 				"title": "Weightlifter",
 				"capacity": "700ml",
 				"url": "./SF390-1.html"
 			},
 			{	
 				"classes": "seventin two-thousand-five-hundred",
-				"img": "./img/SF390.png",
+				"img": "./img/SF390-4.png",
 				"title": "Weightlifter",
 				"capacity": "700ml",
 				"url": "./SF390.html"
@@ -382,21 +382,21 @@
 			},
 			{	
 				"classes": "seventin two-thousand-five-hundred",
-				"img": "./img/SF388.png",
+				"img": "./img/SF388-4.png",
 				"title": "Powerlifter",
 				"capacity": "700ml",
 				"url": "./SF388.html"
 			},
 			{	
 				"classes": "seventin two-thousand-five-hundred",
-				"img": "./img/SF386-1.png",
+				"img": "./img/SF386-1-4.png",
 				"title": "Lifter",
 				"capacity": "700ml",
 				"url": "./SF386-1.html"
 			},
 			{	
 				"classes": "seventin two-thousand-five-hundred",
-				"img": "./img/SF386.png",
+				"img": "./img/SF386-4.png",
 				"title": "Lifter",
 				"capacity": "700ml",
 				"url": "./SF386.html"

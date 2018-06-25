@@ -13,7 +13,7 @@ if (container && item) {
     itemSelector: itemString,
     masonry: {
       horizontalOrder: true,
-      columnWidth: 165,
+      columnWidth: 190,
       isFitWidth: true
     }
   });

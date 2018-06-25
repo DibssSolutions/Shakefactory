@@ -23,12 +23,12 @@
     
     $mail->MsgHTML($htm);
     
-    $mail->AddAddress("mabrahamsson@gmail.com", "Shakerfactory");
+    $mail->AddAddress("stasumanskiy@gmail.com", "Shakerfactory");
 
     /* auto reply */
     $mreply = new PHPMailer();      
-    $mreply->SetFrom("mabrahamsson@gmail.com", "Shakerfactory");        
-    $mreply->AddReplyTo("mabrahamsson@gmail.com", "Shakerfactory");     
+    $mreply->SetFrom("stasumanskiy@gmail.com", "Shakerfactory");        
+    $mreply->AddReplyTo("stasumanskiy@gmail.com", "Shakerfactory");     
     $mreply->Subject = "Shakerfactory Request Received!";       
     $mreply->MsgHTML("Thanks for your inquiry, we shall get back to you within one working day.");       
     $mreply->AddAddress($_POST['email'], $_POST['name']);

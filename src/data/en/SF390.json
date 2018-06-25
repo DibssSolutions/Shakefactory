@@ -54,20 +54,20 @@
 	],
 	"sliderProduct": [
 		{
-			"imgBig": "img/SF370.png",
+			"imgBig": "img/SF390.png",
 			"img": true	
 		},
 		{
-			"imgBig": "img/SF370_2.png",
+			"imgBig": "img/SF390_2.png",
 			"img": true	
 		}
 	],
 	"sliderNavProduct": [
 		{
-			"imgSmall": "img/SF370.png"	
+			"imgSmall": "img/SF390.png"	
 		},
 		{
-			"imgSmall": "img/SF370_2.png"	
+			"imgSmall": "img/SF390_2.png"	
 		}
 	],
 	"title" : "Weightlifter",
